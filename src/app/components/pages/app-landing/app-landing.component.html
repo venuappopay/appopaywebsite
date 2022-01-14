@@ -1,0 +1,1806 @@
+<nav class="navbar navbar-expand-md navbar-light navbar-area">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/app-landing">
+            <img src="assets/img/appopaynews.png" alt="logo" style="width:100px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link " routerLink="/app-landing">{{ 'demo.applanding1' | translate }}</a></li>
+
+
+                <li class="nav-item"><a class="nav-link " routerLink="/app-merchant">{{ 'demo.applanding2' | translate }}</a></li>
+
+
+               <!-- <li class="nav-item"><a class="nav-link" routerLink="/business">Business</a></li>-->
+
+                <li class="nav-item"><a class="nav-link" routerLink="/agent">{{ 'demo.applanding3' | translate }}</a></li>
+           
+                <li class="nav-item"><a class="nav-link" routerLink="/qrcode">{{ 'demo.applanding4' | translate }}</a></li>
+                <li class="nav-item">
+
+                    <div class="dropdown">
+                        <div class="nav-link">Language
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+                        <div class="dropdown-content">
+
+                <li> <a [routerLink]="" (click)="useLanguage('en')" >English</a></li>
+                <li> <a [routerLink]="" (click)="useLanguage('de')">Spanish</a></li>
+                <li><a routerLink="/app-landing">Chinese</a> </li>
+
+
+        </div>
+    </div>
+
+    </li>
+
+    </ul>
+
+    <div class="navbar-btn">
+        <a href="" target="_blank">{{ 'demo.applanding5' | translate }}</a>
+    </div>
+    <div class="navbar-btn">
+        <a href="https://appopay.com/appopayadmin/#/system/login" target="_blank">{{ 'demo.applanding6' | translate }}</a>
+    </div>
+    </div>
+    </div>
+</nav>
+<style>
+    .columns {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .rowa::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 1px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+
+
+
+    .dropdown-content {
+        display: none;
+        position: fixed;
+
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        background-color: #0899e7;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f2f2f22e !important;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+
+<div class="w-100">
+    <app-carousel></app-carousel>
+</div>
+
+<section class="standard-section pt-100">
+    <div class="container">
+        <div class="">
+            <div class="col-lg-12 col-sm-12">
+
+                <img src="assets/img/app-landing/Saparater0412.png" alt="iphone">
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="why-choose  pt-100 pb-50" id="slide1">
+    <div class="container">
+        <div class="bounce">
+            <p> <span style="color:#069ee8;">
+                    <img src="assets/img/AppoPay-4.png" alt="logo" style="width:120px;">
+                </span>
+
+            </p>
+
+
+        </div>
+        <div class="row align-items-center">
+
+            <div class="col-lg-3">
+
+                <div class="why-choose-img wow fadeInUp" data-wow-duration="1s">
+                    <!-- <img src="assets/img/app-landing/sliderbelow1.png" alt="why choose image">-->
+                    <img src="assets/img/app-landing/Signinnew0412.png" alt="why choose image">
+                </div>
+            </div>
+
+
+
+
+            <div class="col-lg-8 offset-lg-1">
+                <div class="why-choose-text wow fadeInUp" data-wow-duration="2s">
+
+
+
+                    <div
+                        style="margin-left: 10px; color: #000; font-size: 14pt; font-family: 'GlacialIndifferenceRegular';">
+                        <p style="margin-left: 10px;">
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span>
+                            {{ 'demo.applanding7' | translate }} <b> {{ 'demo.applanding8' | translate }} </b>,  {{ 'demo.applanding9' | translate }}  <b> {{ 'demo.applanding10' | translate }} </b>
+                            {{ 'demo.applanding11' | translate }}  <b> {{ 'demo.applanding12' | translate }} </b>  {{ 'demo.applanding13' | translate }} .
+                        </p>
+                        <p style="margin-left: 10px; color: #000; "> {{ 'demo.applanding14' | translate }}  <b> {{ 'demo.applanding15' | translate }} </b>  {{ 'demo.applanding16' | translate }} 
+                            <b> {{ 'demo.applanding17' | translate }} </b>
+
+                        </p>
+                        <p style="margin-left: 10px; color: #000;"> {{ 'demo.applanding18' | translate }} 
+                            <b> {{ 'demo.applanding19' | translate }} </b>,  {{ 'demo.applanding20' | translate }}  <b> {{ 'demo.applanding21' | translate }} </b>  {{ 'demo.applanding22' | translate }}  <b> {{ 'demo.applanding23' | translate }} </b>  {{ 'demo.applanding24' | translate }} .
+                        </p>
+                    </div>
+                    <div class="why-choose-btn">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay"
+                        class="active">
+                        <i class="flaticon-playstore"></i>
+                        <p> {{ 'demo.applanding25' | translate }} </p>
+                        <h5> {{ 'demo.applanding26' | translate }} </h5>
+                    </a>
+
+                    <a target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                        <i class="flaticon-app-store"></i>
+                        <p> {{ 'demo.applanding27' | translate }} </p>
+                        <h5> {{ 'demo.applanding28' | translate }} </h5>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="why-choose why-choosepnewp pt-100 pb-50" id="slide2">
+    <div class="container">
+        <div class="bounce">
+            <p> <span style="color:#069ee8;">
+                    <img src="assets/img/AppoPay-4.png" alt="logo" style="width:120px;">
+                </span>
+
+            </p>
+
+
+        </div>
+        <div class="row align-items-center">
+
+            <div class="col-lg-3">
+
+                <div class="why-choose-img wow fadeInUp" data-wow-duration="1s">
+                    <!-- <img src="assets/img/app-landing/sliderbelow1.png" alt="why choose image">-->
+                    <img src="assets/img/app-landing/card0412.png" alt="why choose image">
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-lg-8 offset-lg-1">
+                <div class="why-choose-text wow fadeInUp" data-wow-duration="2s">
+
+
+
+
+                    <div
+                        style="margin-left: 10px; color: #000; font-size: 14pt; font-family: 'GlacialIndifferenceRegular';">
+
+                        <p style="margin-left: 10px; color: #000; ">{{ 'demo.applanding29' | translate }}<b> {{ 'demo.applanding30' | translate }} </b> {{ 'demo.applanding31' | translate }} <b> {{ 'demo.applanding32' | translate }} </b>
+
+                        </p>
+
+                    </div>
+
+                    <div class="rowa">
+                        <div class="columns">
+                            <img src="assets/img/app-landing/newaccount.png" alt="Snow" style="width:100%">
+                        </div>
+                        <div class="columns">
+                            <img src="assets/img/app-landing/credit.png" alt="Forest" style="width:100%">
+                        </div>
+                        <div class="columns">
+                            <img src="assets/img/app-landing/mocup0410new.png" alt="Mountains" style="width:100%">
+
+                        </div>
+                    </div>
+                    <div class="our-apps-btn ">
+                        <h4 style="font-family: 'GlacialIndifferenceRegular';margin-top: 29px;margin-left: 5px;">{{ 'demo.applanding33' | translate }}
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.applanding34' | translate }}.
+                        </h4>
+                        <div class="why-choose-btn" style="margin-top: 35px;">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay"
+                                class="active">
+                                <i class="flaticon-playstore"></i>
+                                <p>{{ 'demo.applanding35' | translate }}</p>
+                                <h5>{{ 'demo.applanding36' | translate }}</h5>
+                            </a>
+
+                            <a target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                                <i class="flaticon-app-store"></i>
+                                <p>{{ 'demo.applanding37' | translate }}</p>
+                                <h5>{{ 'demo.applanding38' | translate }}</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="our-apps why-choose    pt-100 pb-50 " id="slide3">
+    <div class="container">
+        <div class="bounce">
+            <p> <span style="color:#069ee8;">
+                    <img src="assets/img/AppoPay-4.png" alt="logo" style="width:120px;">
+                </span>
+
+            </p>
+
+
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-3">
+                <div class="why-choose-img wow fadeInUp" data-wow-duration="1s">
+                    <img src="assets/img/app-landing/VirtualPrepaid0412.png" alt="why choose image">
+                </div>
+            </div>
+
+            <div class="col-lg-8 offset-lg-1">
+                <div class="why-choose-text wow fadeInUp" data-wow-duration="2s">
+                    <!--  <div class="section-title">
+                        <span>Our Mobile Apps</span>
+                        <h2>Also Available on Your Phone</h2>
+                    </div>
+                
+                                <div
+
+[@fadeAnimation]="triggerState1"
+(@fadeAnimation.done)="toggle1()"
+>-->
+
+
+                    <div class="mt-2 mb-3" style="font-size:14pt;font-family: 'GlacialIndifferenceRegular';">
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;"> {{ 'demo.applanding39' | translate }} <b>{{ 'demo.applanding40' | translate }}</b>
+                        </p>
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.applanding41' | translate }} <b>{{ 'demo.applanding42' | translate }}</b>
+                            {{ 'demo.applanding43' | translate }}
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.applanding44' | translate }}
+                        </p>
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.applanding45' | translate }} <b>{{ 'demo.applanding46' | translate }}</b> {{ 'demo.applanding47' | translate }} <b>{{ 'demo.applanding48' | translate }}</b>
+                        </p>
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.applanding49' | translate }}
+                            <b>52,000,000</b> {{ 'demo.applanding50' | translate }}
+                        </p>
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.applanding51' | translate }}
+                            <b>{{ 'demo.applanding52' | translate }}</b> {{ 'demo.applanding53' | translate }} <b>{{ 'demo.applanding54' | translate }}</b> {{ 'demo.applanding55' | translate }}
+                        </p>
+
+                    </div>
+
+                    <div class="our-apps-btn mt-2 mb-3">
+                        <h4 style="font-family: 'GlacialIndifferenceRegular';margin-top: 29px;margin-left: 5px;">{{ 'demo.applanding56' | translate }}
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.applanding57' | translate }}
+                        </h4>
+                        <div class="why-choose-btn" style="margin-top: 35px;">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay"
+                            class="active">
+                            <i class="flaticon-playstore"></i>
+                            <p>{{ 'demo.applanding58' | translate }}</p>
+                            <h5>{{ 'demo.applanding59' | translate }}</h5>
+                        </a>
+
+                        <a target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                            <i class="flaticon-app-store"></i>
+                            <p>{{ 'demo.applanding60' | translate }}</p>
+                            <h5>{{ 'demo.applanding61' | translate }}</h5>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="apps-shape">
+        <img src="assets/img/shape/1.png" alt="shape">
+       
+        <img src="assets/img/shape/5.png" alt="shape">
+        <img src="assets/img/shape/6.png" alt="shape">
+        <img src="assets/img/map-two.png" alt="shape">
+    </div>-->
+</section>
+
+<!--<div class="counter-style-two">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="counter-text">
+                    <img src="assets/img/app-landing/stuffresqr.png" alt="iphone">
+
+                    <p class="qrcode">QR CODE</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="counter-text">
+                    <img src="assets/img/app-landing/standardnfc.png" alt="iphone">
+
+                    <p class="qrcode">NFC</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="counter-text">
+                    <img src="assets/img/app-landing/biome.png" alt="iphone">
+
+                    <p class="qrcode">BIOMATRIX</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>-->
+
+
+<section class="why-choose why-choosep2p pt-100 pb-50" id="slide4">
+    <div class="container">
+        <div class="bounce">
+            <p> <span style="color:#069ee8;">
+                    <img src="assets/img/AppoPay-4.png" alt="logo" style="width:120px;">
+                </span>
+
+            </p>
+
+
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-3">
+                <div class="why-choose-img   wow fadeInUp" data-wow-duration="1s"
+                    style="visibility: visible; animation-duration: 1s;">
+                    <img src="assets/img/app-landing/p2platest.png" alt="why choose image">
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-8 offset-lg-1">
+
+
+
+                <div class="case-items mt-2 mb-2">
+                    <div class="why-chooses-img wow fadeInUp" data-wow-duration="1s">
+                        <img style="width: -moz-available!important;height:420px!important;"
+                            src="assets/img/app-landing/text1p2pnew.jpg" alt="case study image">
+
+
+                    </div>
+
+
+                </div>
+
+                <!-- <div class="our-apps-text mb-3 mt-2">
+                    <p><span class="text-center" style="color:#069ee8 "> <img class="text-center"
+                                src="assets/img/app-landing/p2pche.jpg" alt="logo" style="width:300px;height: 100px;">
+                        </span> </p>
+                </div>-->
+                <div class="our-apps-text">
+
+                    <!--  <div class="section-title">
+                        <span>Our Mobile Apps</span>
+                        <h2>Also Available on Your Phone</h2>
+                    </div>-->
+
+                    <div
+                        style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;margin-top: 25px;text-align: center;">
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+
+                            {{ 'demo.applanding62' | translate }} <b>{{ 'demo.applanding63' | translate }}</b> {{ 'demo.applanding64' | translate }}
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> app;
+                            {{ 'demo.applanding65' | translate }} <b>{{ 'demo.applanding66' | translate }}</b>  {{ 'demo.applanding67' | translate }} <b>{{ 'demo.applanding68' | translate }}</b>. {{ 'demo.applanding69' | translate }}
+                           <b>{{ 'demo.applanding70' | translate }}</b> {{ 'demo.applanding71' | translate }} <b>{{ 'demo.applanding72' | translate }}</b>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> {{ 'demo.applanding73' | translate }}</b>
+                        </p>
+                    </div>
+                    <div class="case-items">
+                        <div class="case-img">
+                            <img style="width: -moz-available!important;height:450px!important;margin-top: 25px;text-align: center;"
+                                src="assets/img/app-landing/p2ptext2.jpg" alt="case study image">
+
+
+                        </div>
+
+
+                    </div>
+
+                    <p
+                        style="font-family: 'GlacialIndifferenceRegular';font-size:16pt;color: #000; font-weight: 500;margin-top: 25px;text-align: center;">
+                        {{ 'demo.applanding74' | translate }} <b>{{ 'demo.applanding75' | translate }}</b>{{ 'demo.applanding76' | translate }}</p>
+
+
+                    <div style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+
+
+                        <p style="margin-left: auto; color: #000; font-weight: 500;"><span style="color:#069ee8"> <img
+                                    src="assets/img/app-landing/p2peasy.png" alt="logo"
+                                    style="width:50px;height: 50px;"> </span> <span style="color:#069ee8"> {{ 'demo.applanding77' | translate }}
+                            </span> &nbsp;&nbsp; &nbsp;&nbsp;–&nbsp; {{ 'demo.applanding78' | translate }} <b>{{ 'demo.applanding79' | translate }}</b> {{ 'demo.applanding80' | translate }}</p>
+                        <p style="margin-left: auto; color: #000; font-weight: 500;"> <span style="color:#069ee8"> <img
+                                    src="assets/img/app-landing/p2peasy2.png" alt="logo"
+                                    style="width:50px;height: 50px;"> </span> <span style="color:#069ee8"> {{ 'demo.applanding81' | translate }}
+                            </span> &nbsp;&nbsp; &nbsp;&nbsp; –&nbsp; {{ 'demo.applanding82' | translate }} <b>{{ 'demo.applanding83' | translate }}</b> {{ 'demo.applanding84' | translate }}
+                        </p>
+                        <p style="margin-left: auto; color: #000; font-weight: 500;"><span style="color:#069ee8"> <img
+                                    src="assets/img/app-landing/p2peasy3.png" alt="logo"
+                                    style="width:50px;height: 50px;"> </span> <span style="color:#069ee8">
+                                {{ 'demo.applanding85' | translate }} </span> &nbsp;&nbsp; –&nbsp; {{ 'demo.applanding86' | translate }} <b>{{ 'demo.applanding87' | translate }}
+                                </b>
+                            {{ 'demo.applanding88' | translate }} <span style="margin-left: 145px;">{{ 'demo.applanding89' | translate }}</span></p>
+
+                    </div>
+                    <div class=" why-choose-text wow fadeInUp">
+                        <div class="our-apps-btn ">
+                            <h4 style="font-family: 'GlacialIndifferenceRegular';margin-top: 29px;margin-left: 5px;">{{ 'demo.applanding90' | translate }}
+                                <span style="font-size:22pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                                <span style="font-size:22pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">y</span> app.
+                            </h4>
+                            <div class="why-choose-btn" style="margin-top: 35px;">
+                                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay"
+                                class="active">
+                                <i class="flaticon-playstore"></i>
+                                <p>{{ 'demo.applanding91' | translate }}</p>
+                                <h5>Google Play</h5>
+                            </a>
+
+                            <a target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                                <i class="flaticon-app-store"></i>
+                                <p>{{ 'demo.applanding92' | translate }}</p>
+                                <h5>{{ 'demo.applanding93' | translate }}</h5>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="apps-shape">
+        <img src="assets/img/shape/1.png" alt="shape">
+       
+        <img src="assets/img/shape/5.png" alt="shape">
+        <img src="assets/img/shape/6.png" alt="shape">
+        <img src="assets/img/map-two.png" alt="shape">
+    </div>-->
+</section>
+
+
+<!--<section id="screenshots" class="screenshots-section pt-100">
+    <div class="container-fluid">
+        <div class="section-title">
+           
+            <h2>Have Look at Our App Interface</h2>
+            <p>Grab a look at our outstanding and stunning App Interfaces which is easy to use and very easily manageable.</p>
+        </div>
+<carousel>
+   
+     <div class="carousel-cell">
+        <img src="assets/img/app-landing/cat_grocery.png" style="height: 50%!important;">
+		<p class="text-center">Grocery</p>
+    </div>
+	    <div class="carousel-cell">
+        <img src="assets/img/app-landing/cat_grocery.png" style="height: 50%!important;">
+		<p class="text-center">Grocery</p>
+    </div>
+	  <div class="carousel-cell">
+        <img src="assets/img/app-landing/cat_grocery.png" style="height: 50%!important;">
+		<p class="text-center">Grocery</p>
+    </div>
+	  <div class="carousel-cell">
+        <img src="assets/img/app-landing/cat_grocery.png" style="height: 50%!important;">
+		<p class="text-center">Grocery</p>
+    </div>
+	  <div class="carousel-cell">
+        <img src="assets/img/app-landing/cat_grocery.png" style="height: 50%!important;">
+		<p class="text-center">Grocery</p>
+    </div>
+	  <div class="carousel-cell">
+        <img src="assets/img/app-landing/cat_grocery.png" style="height: 50%!important;">
+		<p class="text-center">Grocery</p>
+    </div>
+	  <div class="carousel-cell">
+        <img src="assets/img/app-landing/cat_grocery.png" style="height: 50%!important;">
+		<p class="text-center">Grocery</p>
+    </div>
+	  <div class="carousel-cell">
+        <img src="assets/img/app-landing/cat_grocery.png" style="height: 50%!important;">
+		<p class="text-center">Grocery</p>
+    </div>
+</carousel>
+     
+
+        <div class="screenshot-shape">
+            <img src="assets/img/shape/1.png" alt="shape">
+            <img src="assets/img/shape/2.png" alt="shape">
+         
+            <img src="assets/img/shape/4.png" alt="shape">
+            <img src="assets/img/shape/5.png" alt="shape">
+            <img src="assets/img/shape/6.png" alt="shape">
+        </div>
+    </div>
+</section>-->
+
+
+
+<section class="why-choose why-choosep2pp pt-100 pb-50" id="slide5">
+    <div class="container">
+        <div class="bounce">
+            <p> <span style="color:#069ee8;">
+                    <img src="assets/img/AppoPay-4.png" alt="logo" style="width:120px;">
+                </span>
+
+            </p>
+
+
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-3">
+                <div class="why-choose-img   wow fadeInUp" data-wow-duration="1s"
+                    style="visibility: visible; animation-duration: 1s;top: -20px;">
+                    <img src="assets/img/app-landing/billlatest.png" alt="why choose image">
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-lg-8 offset-lg-1">
+
+
+
+                <div class="case-items mt-2 mb-2">
+                    <div class="why-chooses-img wow fadeInUp" data-wow-duration="1s">
+                        <img style="width: -moz-available!important;height:420px!important;"
+                            src="assets/img/app-landing/life.jpg" alt="case study image">
+
+
+                    </div>
+
+
+                </div>
+
+                <!-- <div class="our-apps-text mb-3 mt-2">
+                    <p><span class="text-center" style="color:#069ee8 "> <img class="text-center"
+                                src="assets/img/app-landing/p2pche.jpg" alt="logo" style="width:300px;height: 100px;">
+                        </span> </p>
+                </div>-->
+                <div class="our-apps-text">
+
+                    <!--  <div class="section-title">
+                        <span>Our Mobile Apps</span>
+                        <h2>Also Available on Your Phone</h2>
+                    </div>-->
+
+                    <div
+                        style="font-family: 'GlacialIndifferenceRegular'; color: #000;font-size:14pt;margin-top: 25px;text-align: center;">
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+
+                           <b>{{ 'demo.applanding94' | translate }} </b> {{ 'demo.applanding95' | translate }}
+                             <b>{{ 'demo.applanding96' | translate }}</b> {{ 'demo.applanding97' | translate }} <b>{{ 'demo.applanding98' | translate }}</b> {{ 'demo.applanding99' | translate }}
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span>
+                        </p>
+                    </div>
+
+                    <div class=" why-choose-text wow fadeInUp">
+                        <div class="our-apps-btn ">
+                            <h4 style="font-family: 'GlacialIndifferenceRegular';margin-top: 29px;margin-left: 5px;">{{ 'demo.applanding100' | translate }}
+                                <span style="font-size:22pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                                <span style="font-size:22pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">y</span> app.
+                            </h4>
+                            <div class="why-choose-btn" style="margin-top: 35px;">
+                                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay"
+                                class="active">
+                                <i class="flaticon-playstore"></i>
+                                <p>{{ 'demo.applanding101' | translate }}</p>
+                                <h5>Google Play</h5>
+                            </a>
+
+                            <a target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                                <i class="flaticon-app-store"></i>
+                                <p>{{ 'demo.applanding102' | translate }}</p>
+                                <h5>{{ 'demo.applanding103' | translate }}</h5>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<section class="why-choose why-choosenew pt-100 pb-50 ">
+    <div class="container">
+
+        <div class="bounce">
+            <p> <span style="color:#069ee8;">
+                    <img src="assets/img/AppoPay-4.png" alt="logo" style="width:120px;">
+                </span>
+
+            </p>
+
+
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-3">
+
+
+                <div class="media">
+
+                    <div class="media-body">
+
+
+
+
+                        <div style="font-family: 'GlacialIndifferenceRegular';font-size: 12pt;
+                        line-height: 1.4rem;">
+
+
+                            <p style="margin-left: auto; color: #000; font-weight: 500;">
+                                <i class="fa fa-check"></i>
+                                &nbsp;&nbsp; <b>{{ 'demo.applanding104' | translate }}</b>{{ 'demo.applanding105' | translate }}
+                            </p>
+                            <p style="margin-left: auto; color: #000; font-weight: 500;">
+                                <i class="fa fa-check"></i>
+                                &nbsp;&nbsp; {{ 'demo.applanding106' | translate }} <b>{{ 'demo.applanding107' | translate }}</b> {{ 'demo.applanding108' | translate }}
+                                                          </p>
+                            <p style="margin-left: auto; color: #000; font-weight: 500;">
+                                <i class="fa fa-check"></i>
+                                &nbsp;&nbsp; Easy <b>start/stop</b> feature, and
+                            </p>
+                            <p style="margin-left: auto; color: #000; font-weight: 500;">
+                                <i class="fa fa-check"></i>
+                                &nbsp;&nbsp; Pay bills from the <b>{{ 'demo.applanding113' | translate }}</b> {{ 'demo.applanding114' | translate }}
+                            </p>
+
+
+                        </div>
+
+       <div
+                            style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;border:1px solid rgb(29, 28, 28);">
+                            <p style="margin-left:10px; color: #000; font-weight: 500;">
+                               {{ 'demo.applanding115' | translate }}
+                                <span style="font-size:22pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                                <span style="font-size:22pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">y</span>
+                            {{ 'demo.applanding116' | translate }}
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 offset-lg-1">
+          <div
+                    style="font-family: 'GlacialIndifferenceRegular';font-size:13pt;margin-top: 25px;text-align: center;">
+                    <p style="font-size: 13pt;
+                    margin-top: 73px;
+                    text-align: center;
+                    line-height: 1.9rem;color: #000; font-weight: 500;">
+
+                        {{ 'demo.applanding117' | translate }} <b>{{ 'demo.applanding118' | translate }}</b> {{ 'demo.applanding119' | translate }}<span style="font-size:22pt!important;color:#03a1de">a</span>
+                        <span style="font-size:14pt!important;color:#03a1de">p</span>
+                        <span style="font-size:14pt!important;color:#03a1de">p</span>
+                        <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                        <span style="font-size:22pt!important;color:#03a1de">p</span>
+                        <span style="font-size:14pt!important;color:#03a1de">a</span>
+                        <span style="font-size:14pt!important;color:#03a1de">y</span>, {{ 'demo.applanding120' | translate }} <b>{{ 'demo.applanding121' | translate }}</b> {{ 'demo.applanding122' | translate }}
+                        <b>{{ 'demo.applanding123' | translate }}</b> {{ 'demo.applanding124' | translate }} <b>{{ 'demo.applanding125' | translate }}</b> {{ 'demo.applanding126' | translate }} <b>{{ 'demo.applanding127' | translate }}</b> {{ 'demo.applanding128' | translate }}
+                    </p>
+                </div>
+                <div class="row align-items-center">
+
+                    <img style="max-width:105%!important;height:450px!important;margin-top: 25px;text-align: center;"
+                        src="assets/img/app-landing/never1.png" alt="case study image">
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--<section id="testimonial" class="testimonial-section pt-100 pb-30">
+    <div class="container-fluid">
+        <div class="section-title">
+         
+            <h2>Shop On Mall </h2>
+           
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <div class="testimonial-img" style="text-align: center;">
+                    <img src="assets/img/app-landing/ban-icons-new.png" alt="map image">
+
+              
+                </div>
+            </div>
+      
+			       
+        </div>
+
+    </div>
+</section>-->
+<!--<section id="testimonial" class="testimonial-section pt-100 pb-30">
+    <div class="container-fluid">
+        <div class="section-title">
+         
+            <h2>Shop On Mall </h2>
+           
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <div class="testimonial-img" style="text-align: center;">
+                    <img src="assets/img/app-landing/ban-icons-new.png" alt="map image">
+
+              
+                </div>
+            </div>
+      
+			       
+        </div>
+
+    </div>
+</section>-->
+<section class="why-choosess pt-20 pb-50">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+
+
+
+
+
+            <div class="col-lg-12">
+                <div class="why-choosess-text wow fadeInUp" data-wow-duration="2s">
+
+
+
+
+                    <div class="our-apps-btn " style="margin-left: 350px;">
+                        <h4 style="font-family: 'GlacialIndifferenceRegular';margin-top: 29px;margin-left: 5px;">{{ 'demo.applanding129' | translate }}
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> app.
+                        </h4>
+                        <div class="why-choosess-btn" style="margin-top: 35px;">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay"
+                            class="active">
+                            <i class="flaticon-playstore"></i>
+                            <p>{{ 'demo.applanding130' | translate }}</p>
+                            <h5>Google Play</h5>
+                        </a>
+
+                        <a target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                            <i class="flaticon-app-store"></i>
+                            <p>{{ 'demo.applanding131' | translate }}</p>
+                            <h5>{{ 'demo.applanding132' | translate }}</h5>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="why-choose  why-chooseshop  pt-100 pb-50" id="slide7">
+    <div class="container">
+        <div class="bounce">
+            <p> <span style="color:#069ee8;">
+                    <img src="assets/img/AppoPay-4.png" alt="logo" style="width:120px;">
+                </span>
+
+            </p>
+
+
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-3">
+                <div class="why-choose-img wow fadeInUp" data-wow-duration="1s">
+                    <img src="assets/img/app-landing/Shoppingyellow.png" alt="why choose image">
+                </div>
+            </div>
+
+            <div class="col-lg-8 offset-lg-1">
+                <div class="why-choose-text wow fadeInUp" data-wow-duration="2s">
+
+                    <div style="font-family: 'GlacialIndifferenceRegular'; font-size:14pt;background-color: #f2f2f2;">
+                        <div class="media ">
+
+                            <div style="margin-left: 10px; color: #000; font-weight: 500;">
+
+                               {{ 'demo.applanding133' | translate }}
+                                <span style="font-size:22pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                                <span style="font-size:22pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.applanding134' | translate }} <b>{{ 'demo.applanding135' | translate }}</b> {{ 'demo.applanding136' | translate }} <b>"My Way
+                                    Shopping".</b> {{ 'demo.applanding138' | translate }}
+                            </div>
+                        </div>
+                        <div class="media">
+
+                            <div style="margin-left: 10px; color: #000; font-weight: 500;">
+
+                                {{ 'demo.applanding139' | translate }} <b>{{ 'demo.applanding140' | translate }}</b>, {{ 'demo.applanding141' | translate }} <b>{{ 'demo.applanding142' | translate }}</b> {{ 'demo.applanding143' | translate }}
+                            </div>
+                        </div>
+
+                        <div class="media">
+
+                            <div style="margin-left: 10px; color: #000; font-weight: 500;">
+
+                                {{ 'demo.applanding144' | translate }} <b>{{ 'demo.applanding145' | translate }}</b> {{ 'demo.applanding146' | translate }}
+                                <span style="font-size:22pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                                <span style="font-size:22pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">y</span>
+                                {{ 'demo.applanding147' | translate }} <b>{{ 'demo.applanding148' | translate }}</b> {{ 'demo.applanding149' | translate }} <b>{{ 'demo.applanding150' | translate }}</b> {{ 'demo.applanding151' | translate }}
+                                <span style="font-size:22pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                                <span style="font-size:22pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">y</span>
+                               {{ 'demo.applanding152' | translate }}
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="screenshots" class="pt-20" style="background: #f7f8fa;">
+    <div class="container-fluid">
+        <div class="section-title">
+
+            <h2
+                style="color: #069ee8; font-weight: 500;font-family: fantasy, cursive; font-size: 22px;text-align: center;">
+               {{ 'demo.applanding153' | translate }}</h2>
+
+        </div>
+        <carousel>
+
+            <div class="carousel-cell" >
+                <img src="assets/img/app-landing/grocery.png" style="height: 50%!important;" (click)="open(content)">
+                <p class="text-center" >{{ 'demo.applanding154' | translate }}</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/restaurant.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding155' | translate }}</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/Pharma.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding156' | translate }}</p>
+            </div>
+
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/mobilecat.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding157' | translate }}</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/men.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding158' | translate }}</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/women.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding159' | translate }}</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/cat_electronics.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding160' | translate }}</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/ele.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding161' | translate }}</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/cat_pc.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding162' | translate }}</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/cat_kitcheb.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding163' | translate }}</p>
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/cat_kids.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding164' | translate }}</p>
+            </div>
+
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/cat_beauty.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding165' | translate }}</p>
+            </div>
+
+
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/cat_bags.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding166' | translate }}</p>
+            </div>
+
+            <div class="carousel-cell">
+                <img src="assets/img/app-landing/cat_giftvoucher.png" style="height: 50%!important;"  (click)="open(content)">
+                <p class="text-center">{{ 'demo.applanding167' | translate }}</p>
+            </div>
+
+
+
+
+        </carousel>
+
+
+    </div>
+</section>
+
+<section class="why-choosess pt-20 pb-50">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+
+
+
+
+
+            <div class="col-lg-12">
+                <div class="why-choosess-text wow fadeInUp" data-wow-duration="2s">
+
+
+
+
+                    <div class="our-apps-btn " style="margin-left: 350px;">
+                        <h4 style="font-family: 'GlacialIndifferenceRegular';margin-top: 29px;margin-left: 5px;">{{ 'demo.applanding168' | translate }}
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> app.
+                        </h4>
+                        <div class="why-choosess-btn" style="margin-top: 35px;">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay"
+                            class="active">
+                            <i class="flaticon-playstore"></i>
+                            <p>{{ 'demo.applanding169' | translate }}</p>
+                            <h5>Google Play</h5>
+                        </a>
+
+                        <a target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                            <i class="flaticon-app-store"></i>
+                            <p>{{ 'demo.applanding170' | translate }}</p>
+                            <h5>{{ 'demo.applanding171' | translate }}</h5>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="why-choose pt-20 pb-20" id="slide6">
+    <div class="container">
+        <div class="bounce" style="margin-top: 35px;">
+            <p> <span style="color:#069ee8;">
+                    <img src="assets/img/AppoPay-4.png" alt="logo" style="width:120px;">
+                </span>
+
+            </p>
+
+
+        </div>
+        <div class="row align-items-center" style="margin-top: 45px;">
+            <div class="col-lg-3">
+                <div class="why-choose-img wow fadeInUp" data-wow-duration="1s">
+                    <img src="assets/img/app-landing/qrcodemoe1.png" alt="why choose image">
+                </div>
+            </div>
+
+            <div class="col-lg-8 ">
+                <div class="why-choose-text wow fadeInUp" data-wow-duration="2s">
+
+                    <p><img src="assets/img/cartnew.png" alt="Pineapple"
+                            style="float: left; width: 140px; height: 140px;margin-top: -37px;">
+                        <span
+                            style=" color: #000; font-weight: 500;  font-size: 20px;font-family: 'GlacialIndifferenceRegular';">{{ 'demo.applanding172' | translate }}<b> {{ 'demo.applanding173' | translate }}</b>
+                            {{ 'demo.applanding174' | translate }}
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ 'demo.applanding175' | translate }}</span>
+                    </p>
+
+
+
+                    <div class="media ">
+
+                        <div style="margin-left: -80px;margin-top: 45px;">
+                            <p style="margin-left: auto; color: #000; font-weight: 500;"><span style="color:#069ee8">
+                                    <img src="assets/img/app-landing/p2peasy.png" alt="logo"
+                                        style="width:50px;height: 50px;"> </span> <span style="color:#069ee8"> {{ 'demo.applanding176' | translate }}
+                                </span> </p>
+                            <div
+                                style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;border:1px solid rgb(29, 28, 28);">
+                                <p style="margin-left:10px; color: #000; font-weight: 500;"> {{ 'demo.applanding177' | translate }}
+                                    <span style="font-size:22pt!important;color:#03a1de">a</span>
+                                    <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                    <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                    <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                                    <span style="font-size:22pt!important;color:#03a1de">p</span>
+                                    <span style="font-size:14pt!important;color:#03a1de">a</span>
+                                    <span style="font-size:14pt!important;color:#03a1de">y</span>, {{ 'demo.applanding178' | translate }} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>{{ 'demo.applanding179' | translate }}</b>
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="media offset-lg-1">
+
+                        <div>
+                            <p style="margin-left: auto; color: #000; font-weight: 500;"> <span style="color:#069ee8">
+                                    <img src="assets/img/app-landing/p2peasy2.png" alt="logo"
+                                        style="width:50px;height: 50px;"> </span> <span style="color:#069ee8"> {{ 'demo.applanding180' | translate }}
+                                </span></p>
+                            <div
+                                style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;border:1px solid rgb(29, 28, 28);">
+                                <p style=" margin-left:10px;  color: #000; font-weight: 500;">
+                                    <span style="font-size:22pt!important;color:#03a1de">a</span>
+                                    <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                    <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                    <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                                    <span style="font-size:22pt!important;color:#03a1de">p</span>
+                                    <span style="font-size:14pt!important;color:#03a1de">a</span>
+                                    <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.applanding181' | translate }} <b>{{ 'demo.applanding182' | translate }}</b> {{ 'demo.applanding183' | translate }}
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media offset-lg-1">
+
+                        <div>
+                            <p style="margin-left: auto; color: #000; font-weight: 500;"><span style="color:#069ee8">
+                                    <img src="assets/img/app-landing/p2peasy3.png" alt="logo"
+                                        style="width:50px;height: 50px;"> </span> <span style="color:#069ee8">
+                                    {{ 'demo.applanding184' | translate }} </span>
+
+                            </p>
+
+                            <div
+                                style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;border:1px solid rgb(29, 28, 28);">
+                                <p style=" margin-left:10px;color: #000; font-weight: 500;">{{ 'demo.applanding185' | translate }}
+                                   <b>{{ 'demo.applanding186' | translate }}</b>  {{ 'demo.applanding187' | translate }} <b>{{ 'demo.applanding188' | translate }}</b> {{ 'demo.applanding189' | translate }}
+                                    <b>"{{ 'demo.applanding190' | translate }}"</b> {{ 'demo.applanding191' | translate }} </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class=" why-choose-text wow fadeInUp" style="margin-left: 60px;">
+                        <div class="our-apps-btn ">
+                            <h4 style="font-family: 'GlacialIndifferenceRegular';margin-top: 29px;margin-left: 5px;">{{ 'demo.applanding192' | translate }}
+                                <span style="font-size:22pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">p</span>
+                                <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                                <span style="font-size:22pt!important;color:#03a1de">p</span>
+                                <span style="font-size:14pt!important;color:#03a1de">a</span>
+                                <span style="font-size:14pt!important;color:#03a1de">y</span> app.
+                            </h4>
+                            <div class="why-choose-btn" style="margin-top: 35px;">
+                                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay"
+                                class="active">
+                                <i class="flaticon-playstore"></i>
+                                <p>{{ 'demo.applanding193' | translate }}</p>
+                                <h5>Google Play</h5>
+                            </a>
+
+                            <a target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                                <i class="flaticon-app-store"></i>
+                                <p>{{ 'demo.applanding194' | translate }}</p>
+                                <h5>{{ 'demo.applanding195' | translate }}</h5>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<section id="features" class="feature-section pb-30" style="margin-top:30px;">
+    <div class="container">
+        <div class="section-title">
+
+            <h2>PRODUCTS</h2>
+            <p>Expand your customer base by providing multiple payment platforms</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 qrcodepay">
+                <div class="feature-card active wow fadeInUp" data-wow-duration="2s">
+                    <div class="service-item">
+                        <img class="mb-3" src="assets/img/app-landing/qr-code.png" alt="icon" style="width:50px;">
+
+                    </div>
+                    <h3> GLOBAL QR code Payments</h3>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 nfcpay">
+                <div class="feature-card  wow fadeInUp" data-wow-duration="2s">
+                    <div class="service-item">
+                        <img class="mb-3" src="assets/img/app-landing/nfcne.png" alt="icon" style="width:50px;">
+
+                    </div>
+
+                    <h3>NFC Payments</h3>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 offset-sm-3 offset-md-3 offset-lg-0 biopay">
+                <div class="feature-card wow fadeInUp" data-wow-duration="2s">
+                    <div class="service-item">
+                        <img class="mb-3" src="assets/img/app-landing/fingerprint.png" alt="icon" style="width:50px;">
+
+                    </div>
+                    <h3>Biomatric Payments</h3>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>-->
+
+
+
+
+<!--<section id="features" class="feature-section pt-20 pb-20">
+    <div class="container">
+        <div class="section-title">
+
+            <p>Enhance your customers shopping experience</p>
+        </div>
+
+        <div class="row">
+
+
+
+            <div class="col-lg-4 col-md-6 col-sm-6 offset-sm-3 offset-md-3 offset-lg-0 qrcodepay">
+                <div class="feature-card wow fadeInUp" data-wow-duration="2s">
+                    <div class="service-item">
+                        <img class="mb-3" src="assets/img/app-landing/qr-coupons.png" alt="icon" style="width:50px;">
+
+                    </div>
+
+                    <h3>QR coupons</h3>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 offset-sm-3 offset-md-3 offset-lg-0 nfcpay">
+                <div class="feature-card wow fadeInUp" data-wow-duration="2s">
+                    <div class="service-item">
+                        <img class="mb-3" src="assets/img/app-landing/qr-offers.png" alt="icon" style="width:50px;">
+
+                    </div>
+                    <h3>QR Offers</h3>
+
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-6 offset-sm-3 offset-md-3 offset-lg-0 biopay">
+                <div class="feature-card wow fadeInUp" data-wow-duration="2s">
+                    <div class="service-item">
+                        <img class="mb-3" src="assets/img/app-landing/qr-trasfer.png" alt="icon" style="width:50px;">
+
+                    </div>
+                    <h3>QR Transfers</h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+
+
+
+
+
+
+
+
+
+<div class="bounce" style="margin-top: 45px;">
+    <p> <span style="color:#069ee8;">
+            <img src="assets/img/AppoPay-4.png" alt="logo" style="width:120px;">
+        </span>
+
+    </p>
+
+
+</div>
+
+<section class="how-use pt-20">
+    <div class="container">
+
+        <h2 style="text-align: center;font-size: 38px;
+                font-weight: 700;
+                color: #343d48;
+                margin-bottom: 25px;margin-top: 45px;">
+           {{ 'demo.applanding196' | translate }}</h2>
+        <p style=" margin-left: 200px;color: #000;font-family: 'GlacialIndifferenceRegular';font-size: 16pt;">
+          {{ 'demo.applanding197' | translate }}
+            <span style="font-size:22pt!important;color:#03a1de">a</span>
+            <span style="font-size:14pt!important;color:#03a1de">p</span>
+            <span style="font-size:14pt!important;color:#03a1de">p</span>
+            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+            <span style="font-size:22pt!important;color:#03a1de">p</span>
+            <span style="font-size:14pt!important;color:#03a1de">a</span>
+            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.applanding198' | translate }}
+        </p>
+
+
+        <div class="row align-items-center mb-2 mt-2">
+            <div class="col-lg-6">
+                <div class="row align-items-center"
+                    style=" font-size: 14pt;color: #000;font-family: 'GlacialIndifferenceRegular';">
+                    <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                        <div class="how-use-card how-card-one">
+                            <span> 1</span>
+                            <img class="mb-2" src="assets/img/app-landing/Installation.png" alt="icon">
+                            <h3>{{ 'demo.applanding199' | translate }}</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                        <p> <b>{{ 'demo.applanding200' | translate }}</b> {{ 'demo.applanding201' | translate }}</p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                        <p>{{ 'demo.applanding202' | translate }} <b>{{ 'demo.applanding203' | translate }}</b> {{ 'demo.applanding204' | translate }}</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                        <div class="how-use-card how-card-two">
+                            <span>2</span>
+                            <img class="mb-2" src="assets/img/app-landing/set-your-profile.png" alt="icon">
+                            <h3>{{ 'demo.applanding205' | translate }}</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                        <div class="how-use-card how-card-three">
+                            <span>3</span>
+                            <img class="mb-2" src="assets/img/app-landing/account.png" alt="icon">
+                            <h3>{{ 'demo.applanding206' | translate }} </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                        <p>{{ 'demo.applanding207' | translate }} <b>{{ 'demo.applanding208' | translate }}</b> {{ 'demo.applanding209' | translate }} </p>
+                        <span> <b>{{ 'demo.applanding210' | translate }}</b></span>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                        <p>{{ 'demo.applanding211' | translate }} <b>{{ 'demo.applanding212' | translate }}</b> {{ 'demo.applanding213' | translate }} <b>{{ 'demo.applanding214' | translate }}</b>
+                             <b>{{ 'demo.applanding215' | translate }}</b> {{ 'demo.applanding216' | translate }}</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                        <div class="how-use-card how-card-four">
+                            <span>4</span>
+                            <img class="mb-2" src="assets/img/app-landing/virtual card.png" alt="icon">
+                            <h3>{{ 'demo.applanding217' | translate }}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 offset-lg-2 wow fadeInUp" data-wow-duration="1s">
+                <carousel class="car2">
+                    <div class="carousel-cell cell-1">
+                        <img src="assets/img/app-landing/Signinnew0412.png" />
+                    </div>
+                    <div class="carousel-cell cell-2">
+                        <img src="assets/img/app-landing/Verifysmallslide1112.png" />
+                    </div>
+                    <div class="carousel-cell cell-3">
+                        <img src="assets/img/app-landing/registertoday1112.png" />
+                    </div>
+                    <div class="carousel-cell cell-4">
+                        <img src="assets/img/app-landing/Forget Password1112.png" />
+                    </div>
+                    <div class="carousel-cell cell-4">
+                        <img src="assets/img/app-landing/card0412.png" />
+                    </div>
+                
+             
+                </carousel>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="screenshots" class="screenshots-section pt-20 pb-20">
+    <div class="container-fluid">
+        <div class="section-title">
+
+            <h2> {{ 'demo.applanding218' | translate }}</h2>
+            <p>{{ 'demo.applanding219' | translate }}</p>
+        </div>
+
+        <carousel class="car">
+
+            <div class="carousel-cell cell-1">
+                <img style="height:90%!important;" src="assets/img/app-landing/ourapp1.png" />
+                <p style=" font-weight:500;font-size: 16pt;margin-left: 25px;
+                color: #000;font-family: 'GlacialIndifferenceRegular';">{{ 'demo.applanding220' | translate }}</p>
+            </div>
+            <div class="carousel-cell cell-2">
+                <img style="height:90%!important;" src="assets/img/app-landing/ourapp2.png" />
+                <p style=" font-weight:500;font-size: 16pt;margin-left: 30px;
+                color: #000;font-family: 'GlacialIndifferenceRegular';">{{ 'demo.applanding221' | translate }}</p>
+            </div>
+            <div class="carousel-cell cell-3">
+                <img style="height:90%!important;" src="assets/img/app-landing/ourapp3.png" />
+                <p style=" font-weight:500;font-size: 16pt;margin-left: 40px;
+                color: #000;font-family: 'GlacialIndifferenceRegular';">{{ 'demo.applanding222' | translate }}</p>
+            </div>
+            <div class="carousel-cell cell-4">
+                <img style="height:90%!important;" src="assets/img/app-landing/ourapp0412.png" />
+                <p style=" font-weight:500;font-size: 16pt;margin-left: 25px;
+                color: #000;font-family: 'GlacialIndifferenceRegular';">{{ 'demo.applanding223' | translate }}</p>
+            </div>
+            <div class="carousel-cell cell-5">
+                <img style="height:90%!important;" src="assets/img/app-landing/ourapp5.png" />
+                <p style=" font-weight:500;font-size: 16pt;margin-left: 35px;
+                color: #000;font-family: 'GlacialIndifferenceRegular';">{{ 'demo.applanding224' | translate }}</p>
+            </div>
+
+
+            <div class="carousel-cell cell-11">
+                <img src="assets/img/app-landing/1.png" />
+            </div>
+            <div class="carousel-cell cell-12">
+                <img src="assets/img/app-landing/1.png" />
+            </div>
+        </carousel>
+
+
+        <div class="screenshot-shape">
+            <img src="assets/img/shape/1.png" alt="shape">
+            <img src="assets/img/shape/2.png" alt="shape">
+
+            <img src="assets/img/shape/4.png" alt="shape">
+            <img src="assets/img/shape/5.png" alt="shape">
+            <img src="assets/img/shape/6.png" alt="shape">
+        </div>
+    </div>
+</section>
+<!--<section id="testimonial" class="testimonial-section">
+    <div class="container-fluid">
+        <div class="section-title">
+
+            <h2>People Quotes About Us</h2>
+            <p>We value what our valued clients and users have to say about us. We are always ready to improve and be at
+                your service.</p>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="testimonial-img ">
+                    <img class="mapleft" src="assets/img/app-landing/mapcash.png" alt="map image">
+
+
+                </div>
+            </div>
+           
+            <div class="col-lg-5">
+			  <carousel>
+          
+                    <div class="testimonial-item">
+                        <img src="assets/img/app-landing/testimonial/client-img.png" alt="client image">
+                        <div class="client-info">
+                            <h3>John Doe</h3>
+                            <span>Traveler</span>
+                        </div>
+                        <p>I am enjoying this app so far. I was surprised that Shopify didn`t have a built-in function for something like this but glad your app fits the bill.</p>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <img src="assets/img/app-landing/testimonial/client-img-three.png" alt="client image">
+                        <div class="client-info">
+                            <h3>Harry</h3>
+                            <span>SEO Expert</span>
+                        </div>
+                        <p>I am enjoying this app so far. I was surprised that Shopify didn`t have a built-in function for something like this but glad your app fits the bill.</p>
+                    </div>
+           
+  </carousel>
+            </div> 
+
+        </div>
+
+        <div class="testimonial-shape">
+            <img src="assets/img/shape/1.png" alt="shape">
+            <img src="assets/img/shape/2.png" alt="shape">
+
+            <img src="assets/img/shape/4.png" alt="shape">
+            <img src="assets/img/shape/5.png" alt="shape">
+        </div>
+    </div>
+</section>-->
+
+<section class="why-choosess pt-20 pb-70">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+
+
+
+
+
+            <div class="col-lg-12">
+                <div class="why-choosess-text wow fadeInUp" data-wow-duration="2s">
+
+
+
+
+                    <div class="our-apps-btn " style="margin-left: 350px;">
+                        <h4 style="font-family: 'GlacialIndifferenceRegular';margin-top: 29px;margin-left: 5px;">{{ 'demo.applanding225' | translate }}
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> app.
+                        </h4>
+                        <div class="why-choosess-btn" style="margin-top: 35px;">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay"
+                            class="active">
+                            <i class="flaticon-playstore"></i>
+                            <p>{{ 'demo.applanding226' | translate }}</p>
+                            <h5>Google Play</h5>
+                        </a>
+
+                        <a target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                            <i class="flaticon-app-store"></i>
+                            <p>{{ 'demo.applanding227' | translate }}</p>
+                            <h5>{{ 'demo.applanding228' | translate }}</h5>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-lg-3 col-sm-6 foota">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo-white.png" alt="logo" style="width:200px;">
+                    </div>
+
+                    <div class="footer-link mb-3">
+                        <a  target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay">
+                            <img src="assets/img/google-play.png" alt="google image" style="height:35px;width:330px;">
+                        </a>
+
+                        <a  target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                            <img src="assets/img/app-store.png" alt="google image" style="height:35px;width:330px;">
+                        </a>
+                    </div>
+                    <h6 style="color:#fff;font-weight:700;font-size:20px;">{{ 'demo.applanding229' | translate }}</h6>
+
+                    <div class="footer-link mb-2">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/DSS-Logo.png" alt="google image" style="width:330px;">
+                        </a>
+
+
+                    </div>
+                    <div class="footer-link mb-2">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/trust-seal-protected.png" alt="google image" style="width:330px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 foot">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding234' | translate }}</h3>
+
+                    <ul>
+                        <li><a  routerLink="/business"><i class="flaticon-right"></i> {{ 'demo.applanding230' | translate }}</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i> {{ 'demo.applanding231' | translate }}</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i> {{ 'demo.applanding232' | translate }}</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 footb">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding233' | translate }}</h3>
+
+
+
+
+
+
+                    <ul>
+                        <li><a routerLink=""><i class="flaticon-right"></i> {{ 'demo.applanding235' | translate }}</a></li>
+                        <li><a routerLink="/privacypolicy"><i class="flaticon-right"></i> {{ 'demo.applanding236' | translate }}</a></li>
+                        <li><a routerLink="/termsofuse"><i class="flaticon-right"></i> {{ 'demo.applanding237' | translate }}</a></li>
+                         <li><a routerLink="/contact-us"><i class="flaticon-right"></i> {{ 'demo.applanding238' | translate }}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 footc">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding239' | translate }}</h3>
+
+
+
+                    <ul>
+                        <li><a href="Appopay"><i class="flaticon-right"></i>Location: Appopay </a></li>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Via Transistmica Plaza Nani alado
+                            </a></li>
+                        <li><a href="tel:+02452142314" style="margin-left: 13px;"> Pharmacia metro Plus </a></li>
+
+
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Panama, Republica de Panama </a>
+                        </li>
+
+
+                        <li><a href="mailto:hello@euzan.com"><i class="flaticon-right"></i>Email:support@appopay.com</a>
+                        </li>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Phone:+5073731199</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 footex">
+                <div class="footer-widget">
+
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <img src="assets/img/bank_logo2.png" alt="logo" style="width:200px;">
+                        </div>
+                        <h6 style="color:#fff;font-weight:600;">{{ 'demo.applanding240' | translate }}</h6>
+                        <div class="footer-logo">
+                            <img src="assets/img/bottomlogo.png" alt="logo" style="width:200px;">
+                        </div>
+
+                        <h6 style="color:#fff;font-weight:600;">{{ 'demo.applanding241' | translate }}</h6>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-4 lh-1">
+                    <img src="assets/img/bottomnew.png" alt="union card">
+                    <img src="assets/img/visa.png" alt="visa card">
+                    <img src="assets/img/american-express.png" alt="american-express">
+                    <img src="assets/img/discover.png" alt="discover">
+                    <img src="assets/img/master-card.png" alt="master card">
+                </div>
+
+                <div class="col-lg-6 col-md-8 lh-1">
+                    <p>Copyright @2019 appopay.com. All rights reserved <a href="https://appopay.com/appopaynew"
+                            target="_blank"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="top-btn">
+    <i class="flaticon-rocket"></i>
+</div>
+
+
+
+<ng-template #content let-modal>
+    <div class="modal-header">
+      
+        <button type="button" class="close"
+                aria-label="Close" (click)=
+                "modal.dismiss('Cross click')">
+  
+            <span aria-hidden="true">
+                ×
+            </span>
+        </button>
+    </div>
+    <div class="modal-body">
+        
+        <form>
+            <div class="form-group">
+                <label for="dateOfBirth">
+                   COMING SOON.......
+                </label>
+             
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" 
+            class="btn btn-outline-dark" 
+            (click)=
+                "modal.dismiss('Cross click')">
+            close
+        </button>
+    </div>
+</ng-template>
+  
+  

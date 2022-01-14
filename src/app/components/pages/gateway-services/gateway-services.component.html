@@ -1,0 +1,524 @@
+<nav class="navbar navbar-expand-md navbar-light navbar-area pt-100 pb-50" style="background-color: #079ee8;">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/app-landing">
+            <img src="assets/img/appopaynews.png" alt="logo" style="width:100px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link " routerLink="/app-landing">{{ 'demo.appgateway1' | translate }}</a></li>
+                <li class="nav-item"><a class="nav-link " routerLink="/app-merchant">{{ 'demo.appgateway2' | translate }}</a></li>
+              
+                <li class="nav-item"><a class="nav-link" routerLink="/processing">{{ 'demo.appgateway3' | translate }}</a></li>
+
+
+
+   <!-- <li class="nav-item"><a class="nav-link" routerLink="/agent">Agent</a></li>
+
+    <li class="nav-item"><a class="nav-link" routerLink="/qrcode">QR Code</a></li>-->
+    <li class="nav-item">
+
+        <div class="dropdown">
+            <div class="nav-link" routerLink="/processing">{{ 'demo.appgateway4' | translate }}
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-content">
+
+	 <li> <a [routerLink]="" (click)="useLanguage('en')" >English</a></li>
+                <li> <a [routerLink]="" (click)="useLanguage('de')">Spanish</a></li>
+                <li><a routerLink="/app-landing">Chinese</a> </li>
+  
+
+    </div>
+    </div>
+
+    </li>
+
+    </ul>
+
+    <div class="navbar-btn">
+        <a href="https://appopay.com/appopayadmin/#/system/login" target="_blank"> {{ 'demo.appgateway5' | translate }}</a>
+    </div>
+    <div class="navbar-btn">
+        <a href="https://appopay.com/merchantadmin/#/system/login" target="_blank">{{ 'demo.appgateway6' | translate }}</a>
+    </div>
+    </div>
+    </div>
+</nav>
+<style>
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 1px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+
+
+
+    .dropdown-content {
+        display: none;
+        position: fixed;
+    
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        background-color: #0899e7;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+
+<section class=" pt-100"style="top:100px;margin-top: 73px;">
+    <div class="container">
+        <div class="section-title text-center">
+            <span>{{ 'demo.appgateway7' | translate }}</span>
+            <h2>{{ 'demo.appgateway8' | translate }}</h2>
+            
+        </div>
+
+        <div class="row ">
+            
+            <div class="col-lg-12">
+                <div class="why-choose-img wow fadeInUp" data-wow-duration="1s">
+                    <img src="assets/img/app-landing/Topimage.jpg" alt="why choose image">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+<section id="service" class="service-style-two pt-30 pb-70" >
+    <div class="container">
+        <div class="col-lg-12 col-sm-12 text-center">
+            <p style="font-size: 16pt;"><b>{{ 'demo.appgateway9' | translate }}</b></p>
+      
+      
+        </div>
+
+        <div class="row">
+      
+
+            <div  class="col-lg-6 col-sm-6">
+                <div  class="service-item" style="background-color:#000 !important;">
+                <h3 style="color:#fff !important;" >{{ 'demo.appgateway10' | translate }}</h3>
+                <p style=" color:#fff !important;">{{ 'demo.appgateway11' | translate }}</p>
+            <img  src="assets/img/sass-landing/shoppingnwhere.jpg" alt="icon" style="margin-left: 380px;margin-top: 18px;height:100px">
+            </div></div>
+
+<div  class="col-lg-6 col-sm-6">
+    <div  class="service-item" style="background-color: #F7AC8C;">
+    <h3 >{{ 'demo.appgateway12' | translate }}</h3>
+    <p>{{ 'demo.appgateway13' | translate }}</p>
+<img  src="assets/img/sass-landing/process.png" alt="icon" style="margin-left: 417px;margin-top: 18px;height:100px">
+</div></div>
+
+<div  class="col-lg-6 col-sm-6">
+    <div  class="service-item" style="background-color: #FFDC99;">
+    <h3 >{{ 'demo.appgateway14' | translate }}</h3>
+    <p>{{ 'demo.appgateway15' | translate }}</p>
+<img  src="assets/img/sass-landing/cust.png" alt="icon" style="margin-left: 380px;margin-top: 18px;height:100px">
+</div></div>
+
+
+<div  class="col-lg-6 col-sm-6">
+    <div  class="service-item" style="background-color: #A6B5DE;">
+    <h3 >{{ 'demo.appgateway16' | translate }}</h3>
+    <p>{{ 'demo.appgateway17' | translate }}</p>
+<img  src="assets/img/sass-landing/line.png" alt="icon" style="margin-left: 380px;margin-top: 18px;height:100px">
+</div></div>
+
+
+
+<div  class="col-lg-6 col-sm-6">
+    <div  class="service-item" style="background-color: #ADCB97;">
+    <h3 >{{ 'demo.appgateway18' | translate }}</h3>
+    <p>{{ 'demo.appgateway19' | translate }}</p>
+<img  src="assets/img/sass-landing/cardss.png" alt="icon" style="margin-left:370px;margin-top: 18px;height:100px">
+</div></div>
+
+
+
+<div  class="col-lg-6 col-sm-6">
+    <div  class="service-item" style="background-color: #C2C2C2;">
+    <h3 >{{ 'demo.appgateway20' | translate }}</h3>
+    <p>{{ 'demo.appgateway21' | translate }}</p>
+<img  src="assets/img/sass-landing/reports.png" alt="icon" style="margin-left: 390px;margin-top: 40px;height:100px">
+<br>
+</div></div>
+
+
+    
+        </div>
+    </div>
+
+   
+</section>
+
+<!--<section class="why-choose pt-20">
+    <div class="container">
+        <div class="row align-items-center">
+
+
+            <div class="col-lg-12">
+                <div class="why-choose-text wow fadeInUp" data-wow-duration="2s">
+                    <div class="">
+
+                        <h2 class="mt-2" style="margin-left: 10px; color: #000; font-weight: 400;">Appopay FACe technology enables your merchants to launch within minutes</h2>
+                        <p class="mt-2" style="margin-left: 10px; color: #000; font-weight: 400;">Appopay is here to provide you with the best experience of booking tickets online.
+                            With this app, you do not have to worry about traveling miles and buying tickets way ahead
+                            of time. We provide a trustworthy solution to begin your journey.</p>
+                        <p class="mt-2" style="margin-left: 10px; color: #000; font-weight: 400;">Whether you’re a registered payment facilitator, are considering becoming one or
+                            simply want to leverage the benefits without officially registering and managing your
+                            merchants’ risk, our platform can scale to your business needs.</p>
+
+                    </div>
+
+                    <div class="">
+
+                        <h2 class="mt-2">Payment Facilitator Enablement (FACe) Technology benefits</h2>
+
+                    </div>
+
+                    <div class="media">
+
+                        <div class="media-body">
+                            <h3 class="mt-2">INSTANT ONBOARDING</h3>
+                          <p style="margin-left: 10px; color: #000; font-weight: 400;">  More and more businesses are coming to expect a quick and seamless onboarding process
+                            without all the underwriting headaches and wait times. Our unified commerce enablement
+                            platform can deliver exactly that—a speedy and painless process that enables you to create
+                            both a merchant account and platform account in a single step in real-time.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="media">
+
+                        <div class="media-body">
+                            <h3 class="mt-2">AUTOMATED SUB-MERCHANT CREATION AND MANAGEMENT </h3>
+                        <p style="margin-left: 10px; color: #000; font-weight: 400;">    The platform collects a few simple data points and communicates them to the processor in
+                            real-time to create a sub-merchant account under the “master merchant” ID.</p>
+                        </div>
+                    </div>
+
+                    <div class="media">
+
+                        <div class="media-body">
+                            <h3 class="mt-2">SUB-MERCHANT ACCOUNTING AND BILLING </h3>
+                         <p style="margin-left: 10px; color: #000; font-weight: 400;">   Set rates as you see fit for each sub-merchant and the platform tracks the credit card
+                            processing and platform fees for every merchant.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="media">
+
+                        <div class="media-body">
+                            <h3 class="mt-2">SUB-MERCHANT STATEMENTS </h3>
+                           <p style="margin-left: 10px; color: #000; font-weight: 400;"> Send consolidated statements, which include merchant account and platform fees, to all
+                            sub-merchants directly from the platform..</p>
+                                               </div>
+                    </div>
+                    <div class="media">
+
+                        <div class="media-body">
+                            <h3 class="mt-2">RECONCILIATION REPORTING </h3>
+                           <p style="margin-left: 10px; color: #000; font-weight: 400;"> Our payment facilitator technology provides “gross settlement” statements that make
+                            reconciliation painless for sub-merchants.</p>
+                        </div>
+                    </div>
+
+                    <div class="media">
+
+                        <div class="media-body">
+                            <h3 class="mt-2">AUTOMATED CHARGEBACK IMPORTATION AND NOTIFICATION </h3>
+                           <p style="margin-left: 10px; color: #000; font-weight: 400;"> You and your sub-merchants are kept in the loop on any chargeback activity.
+                        </p>
+                        </div>
+                    </div>
+
+
+                    <div class="media">
+
+                        <div class="media-body">
+                            <h3 class="mt-2">CONSOLIDATED PLATFORM REPORTING </h3>
+                           <p style="margin-left: 10px; color: #000; font-weight: 400;"> If you also service merchants with traditional accounts, our payment facilitator technology
+                            reporting is fully backwards compatible with any traditional merchants boarded on the
+                            platform.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<!--<section id="apps" class="our-apps pb-70">
+    <div class="container">
+
+  
+
+        <div class="section-title text-center">
+          
+            <h2>Additional core payment gateway solutions for your merchants</h2>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="our-apps-text">
+                 
+                    <p><span><b>Accept multiple currencies:</b></span>If you are on the phone, you have a phone in your home or place of work, that you can be used  by phone. Euzan is also available on your phone.  Because of these, our website is looking stunning and on all types of screens and devices.</p>
+
+             
+                </div>
+                <div class="our-apps-text">
+                    <p><span><b>Accept multiple currencies:</b></span>If you are on the phone, you have a phone in your home or place of work, that you can be used  by phone. Euzan is also available on your phone.  Because of these, our website is looking stunning and on all types of screens and devices.</p>
+
+             
+                </div>
+                <div class="our-apps-text">
+                    <p><span><b>Accept multiple currencies:</b></span>If you are on the phone, you have a phone in your home or place of work, that you can be used  by phone. Euzan is also available on your phone.  Because of these, our website is looking stunning and on all types of screens and devices.</p>
+
+             
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="our-apps-text">
+                 
+                    <p><span><b>Accept multiple currencies:</b></span>If you are on the phone, you have a phone in your home or place of work, that you can be used  by phone. Euzan is also available on your phone.  Because of these, our website is looking stunning and on all types of screens and devices.</p>
+
+             
+                </div>
+                <div class="our-apps-text">
+                    <p><span><b>Accept multiple currencies:</b></span>If you are on the phone, you have a phone in your home or place of work, that you can be used  by phone. Euzan is also available on your phone.  Because of these, our website is looking stunning and on all types of screens and devices.</p>
+
+             
+                </div>
+                <div class="our-apps-text">
+                    <p><span><b>Accept multiple currencies:</b></span>If you are on the phone, you have a phone in your home or place of work, that you can be used  by phone. Euzan is also available on your phone.  Because of these, our website is looking stunning and on all types of screens and devices.</p>
+
+             
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</section>-->
+
+
+<section id="apps" class="our-apps " style="padding-bottom: 220px;">
+   
+  
+
+<div id="contact" class="contact-section ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 ">
+                <div class="contact-form">
+                    <h2>{{ 'demo.appgateway22' | translate }}</h2>
+
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="{{ 'demo.appgateway23' | translate }}">
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-12 col-sm-6">
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="{{ 'demo.appgateway24' | translate }}">
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-12 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" placeholder="{{ 'demo.appgateway25' | translate }}">
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="message-field" id="message" cols="30" rows="5" placeholder="{{ 'demo.appgateway26' | translate }}"></textarea>
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-12 col-md-12">
+                                <button type="submit" class="default-btn contact-btn">{{ 'demo.appgateway27' | translate }}</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-lg-3 col-sm-6 foota">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo-white.png" alt="logo" style="width:200px;">
+                    </div>
+
+                    <div class="footer-link mb-3">
+                        <a  target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay">
+                            <img src="assets/img/google-play.png" alt="google image" style="height:35px;width:330px;">
+                        </a>
+
+                        <a  target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                            <img src="assets/img/app-store.png" alt="google image" style="height:35px;width:330px;">
+                        </a>
+                    </div>
+                    <h6 style="color:#fff;font-weight:700;font-size:20px;">{{ 'demo.applanding229' | translate }}</h6>
+
+                    <div class="footer-link mb-2">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/DSS-Logo.png" alt="google image" style="width:330px;">
+                        </a>
+
+
+                    </div>
+                    <div class="footer-link mb-2">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/trust-seal-protected.png" alt="google image" style="width:330px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 foot">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding234' | translate }}</h3>
+
+                    <ul>
+                        <li><a  routerLink="/business"><i class="flaticon-right"></i> {{ 'demo.applanding230' | translate }}</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i> {{ 'demo.applanding231' | translate }}</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i> {{ 'demo.applanding232' | translate }}</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 footb">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding233' | translate }}</h3>
+
+
+
+
+
+
+                    <ul>
+                        <li><a routerLink=""><i class="flaticon-right"></i> {{ 'demo.applanding235' | translate }}</a></li>
+                        <li><a routerLink="/privacypolicy"><i class="flaticon-right"></i> {{ 'demo.applanding236' | translate }}</a></li>
+                        <li><a routerLink="/termsofuse"><i class="flaticon-right"></i> {{ 'demo.applanding237' | translate }}</a></li>
+                         <li><a routerLink="/contact-us"><i class="flaticon-right"></i> {{ 'demo.applanding238' | translate }}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 footc">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding239' | translate }}</h3>
+
+
+
+                    <ul>
+                        <li><a href="Appopay"><i class="flaticon-right"></i>Location: Appopay </a></li>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Via Transistmica Plaza Nani alado
+                            </a></li>
+                        <li><a href="tel:+02452142314" style="margin-left: 13px;"> Pharmacia metro Plus </a></li>
+
+
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Panama, Republica de Panama </a>
+                        </li>
+
+
+                        <li><a href="mailto:hello@euzan.com"><i class="flaticon-right"></i>Email:support@appopay.com</a>
+                        </li>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Phone:+5073731199</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 footex">
+                <div class="footer-widget">
+
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <img src="assets/img/bank_logo2.png" alt="logo" style="width:200px;">
+                        </div>
+                        <h6 style="color:#fff;font-weight:600;">{{ 'demo.applanding240' | translate }}</h6>
+                        <div class="footer-logo">
+                            <img src="assets/img/bottomlogo.png" alt="logo" style="width:200px;">
+                        </div>
+
+                        <h6 style="color:#fff;font-weight:600;">{{ 'demo.applanding241' | translate }}</h6>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-4 lh-1">
+                    <img src="assets/img/bottomnew.png" alt="union card">
+                    <img src="assets/img/visa.png" alt="visa card">
+                    <img src="assets/img/american-express.png" alt="american-express">
+                    <img src="assets/img/discover.png" alt="discover">
+                    <img src="assets/img/master-card.png" alt="master card">
+                </div>
+
+                <div class="col-lg-6 col-md-8 lh-1">
+                    <p>Copyright @2019 appopay.com. All rights reserved <a href="https://appopay.com/appopaynew"
+                            target="_blank"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="top-btn">
+    <i class="flaticon-rocket"></i>
+</div>

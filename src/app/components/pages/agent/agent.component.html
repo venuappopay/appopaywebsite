@@ -1,0 +1,836 @@
+<nav class="navbar navbar-expand-md navbar-light navbar-area pt-100 pb-50" style="background-color: #079ee8;">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/app-landing">
+            <img src="assets/img/appopaynews.png" alt="logo" style="width:100px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link " routerLink="/app-landing">{{ 'demo.apppagent1' | translate }}</a></li>
+              
+                <li class="nav-item"><a class="nav-link " routerLink="/app-merchant">{{ 'demo.apppagent2' | translate }}</a></li>
+              
+  
+
+
+    <li class="nav-item"><a class="nav-link" routerLink="/qrcode">{{ 'demo.apppagent3' | translate }}</a></li>
+    <li class="nav-item">
+
+        <div class="dropdown">
+            <div class="nav-link" routerLink="/processing">{{ 'demo.apppagent4' | translate }}
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-content">
+
+           <li> <a [routerLink]="" (click)="useLanguage('en')" >English</a></li>
+                <li> <a [routerLink]="" (click)="useLanguage('de')">Spanish</a></li>
+                <li><a routerLink="/app-landing">Chinese</a> </li>
+  
+
+    </div>
+    </div>
+
+    </li>
+
+    </ul>
+
+    <div class="navbar-btn">
+        <a href="https://appopay.com/appopayadmin/#/system/login" target="_blank"> {{ 'demo.apppagent5' | translate }}</a>
+    </div>
+    <div class="navbar-btn">
+        <a href="https://appopay.com/merchantadmin/#/system/login" target="_blank">{{ 'demo.apppagent6' | translate }}</a>
+    </div>
+    </div>
+    </div>
+</nav>
+<style>
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 1px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+
+
+
+    .dropdown-content {
+        display: none;
+        position: fixed;
+    
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        background-color: #0899e7;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+
+<section class=" pt-100 pb-30"style="top:100px;margin-top: 30px;">
+    <div class="container">
+     
+
+        <div class="row ">
+            
+            <div class="col-lg-12">
+                <div class="why-choose-img wow fadeInUp" data-wow-duration="1s">
+                    <img src="assets/img/agent-landing/agentmap.jpg" alt="why choose image">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-12 text-center">
+         
+            <h2  class="mt-2 mb-3"style="font-size:24pt;">{{ 'demo.apppagent7' | translate }}   
+                <span style="font-size:28pt!important;color:#03a1de">a</span>
+                <span style="font-size:18pt!important;color:#03a1de">p</span>
+                <span style="font-size:18pt!important;color:#03a1de">p</span>
+                <span style="font-size:28pt!important;color:#fb7d02"><b>O</b></span>
+                <span style="font-size:28pt!important;color:#03a1de">p</span>
+                <span style="font-size:18pt!important;color:#03a1de">a</span>
+                <span style="font-size:18pt!important;color:#03a1de">y</span> {{ 'demo.apppagent8' | translate }} <b>{{ 'demo.apppagent9' | translate }}</b> {{ 'demo.apppagent10' | translate }}</h2>
+                <p class="mt-2 mb-3"><i class="fa fa-th-large"  style="font-size:12pt!important;color:#fb7d02"></i>
+                
+                     {{ 'demo.apppagent11' | translate }}</p>
+        
+                <p class="mt-2 mb-3"><i class="fa fa-th-large"  style="font-size:12pt!important;color:#fb7d02"></i>	{{ 'demo.apppagent12' | translate }}</p>
+        
+                <p class="mt-2 mb-3"><i class="fa fa-th-large"  style="font-size:12pt!important;color:#fb7d02"></i>	{{ 'demo.apppagent13' | translate }} </p>
+                <p class="mt-2 mb-3"><i class="fa fa-th-large"  style="font-size:12pt!important;color:#fb7d02"></i>	{{ 'demo.apppagent14' | translate }} </p>
+        </div>
+    </div>
+    </section>
+
+
+    
+<section class="how-use pt-20">
+    <div class="container">
+      
+        <div class="row  align-items-center">
+
+            <div class="col-lg-3 " data-wow-duration="1s">
+
+                <div class="banner-img">
+                    <img src="assets/img/agent-landing/agentmap2.png" alt="iphone" style="margin-left: 40px;height: 150px!important;max-width:150px!important;">
+                </div>
+        
+    </div>
+            <div class="col-lg-9">
+                <div class="row ">
+                
+                  
+  
+                    <div class="col-lg-12 col-md-6 col-sm-6  " style="margin-top:15px;font-family: 'GlacialIndifferenceRegular';font-size:14pt;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.apppagent15' | translate }}
+                             </p>
+                    </div>
+
+
+            
+
+
+                
+                </div>
+            </div>
+
+      
+        </div>
+    </div>
+</section>
+
+
+<div class="col-lg-12 text-center pt-30">
+         
+    <h2  style="font-size:24pt;"> {{ 'demo.apppagent16' | translate }}</h2>
+      
+</div>
+
+<section class="how-use pt-30">
+    <div class="container">
+   
+        <div class="row  align-items-center">
+
+            <div class="col-lg-5 " data-wow-duration="1s">
+                <div class="banner-img ">
+                    <img src="assets/img/agent-landing/shop.jpg" alt="iphone" style="height: 350px!important;max-width:380px!important;">
+                </div>
+        
+    </div>
+            <div class="col-lg-7">
+                <div class="row ">
+                
+               
+                       
+                    <div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+                           {{ 'demo.apppagent17' | translate }} 
+                            </p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.apppagent18' | translate }}
+  </p>
+</div>    
+
+
+                
+                </div>
+            </div>
+
+      
+        </div>
+    </div>
+</section>
+
+
+
+<section class="how-use pt-30">
+    <div class="container">
+   
+        <div class="row  align-items-center">
+
+     
+            <div class="col-lg-7">
+                <div class="row ">
+                
+               
+                       
+                    <div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+                      {{ 'demo.apppagent19' | translate }} <br>  {{ 'demo.apppagent20' | translate }}
+                            </p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.apppagent21' | translate }}
+  </p>
+</div>    
+
+<div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.apppagent22' | translate }}
+  </p>
+</div>    
+                
+                </div>
+            </div>
+
+            <div class="col-lg-5 " data-wow-duration="1s">
+                <div class="banner-img ">
+                    <img src="assets/img/agent-landing/mapnew.jpg" alt="iphone" style="margin-left:10px;height:100%!important;width:100%!important;">
+                </div>
+        
+    </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="how-use pt-30">
+    <div class="container">
+   
+        <div class="row  align-items-center">
+
+            <div class="col-lg-5 " data-wow-duration="1s">
+                <div class="banner-img ">
+                    <img src="assets/img/agent-landing/Additionalrevenue.jpg" alt="iphone" style="height: 400px!important;width:450px!important;">
+                </div>
+        
+    </div>
+            <div class="col-lg-7">
+                <div class="row ">
+                
+               
+                       
+                    <div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.apppagent23' | translate }}
+                            </p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.apppagent24' | translate }}
+  </p>
+</div>    
+<div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.apppagent25' | translate }}
+  </p>
+</div>  
+<div class="col-lg-12 col-md-6 col-sm-6"  style="right: 66px;font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;"><img src="assets/img/agent-landing/Moneytransfer.png" alt="iphone" style="margin-left: 5px;height: 40px!important;max-width:150px!important;"> {{ 'demo.apppagent26' | translate }}   <span style="font-size:22pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+        <span style="font-size:22pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">y</span>{{ 'demo.apppagent27' | translate }}
+  </p>
+</div>  
+
+<div class="col-lg-12 col-md-6 col-sm-6"  style="right: 66px;font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.apppagent28' | translate }}
+  </p>
+</div>  
+
+<div class="col-lg-12 col-md-6 col-sm-6"  style="right: 66px;font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;"><img src="assets/img/agent-landing/BillPayment.png" alt="iphone" style="margin-left: 5px;height: 40px!important;max-width:150px!important;">
+         {{ 'demo.apppagent29' | translate }} <span style="font-size:22pt!important;color:#03a1de">a</span>
+         <span style="font-size:14pt!important;color:#03a1de">p</span>
+         <span style="font-size:14pt!important;color:#03a1de">p</span>
+         <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+         <span style="font-size:22pt!important;color:#03a1de">p</span>
+         <span style="font-size:14pt!important;color:#03a1de">a</span>
+         <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.apppagent30' | translate }}
+         
+  </p>
+</div>  
+
+<div class="col-lg-12 col-md-6 col-sm-6"  style="right: 66px;font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.apppagent31' | translate }}
+  </p>
+</div>  
+                
+                </div>
+            </div>
+
+      
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="how-use pt-30">
+    <div class="container">
+   
+        <div class="row  align-items-center">
+
+            <div class="col-lg-5 " data-wow-duration="1s">
+                <div class="banner-img ">
+                    <img src="assets/img/agent-landing/arrow.jpg" alt="iphone" style="height: 400px!important;max-width:450px!important;">
+                </div>
+        
+    </div>
+            <div class="col-lg-7">
+                <div class="row ">
+                
+               
+                       
+                    <div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+                            <img src="assets/img/agent-landing/Cash-back-0612.png" alt="iphone" style="margin-left: 5px;height: 40px!important;max-width:150px!important;">
+{{ 'demo.apppagent32' | translate }}    <span style="font-size:22pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+        <span style="font-size:22pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.apppagent33' | translate }}   <span style="font-size:22pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+        <span style="font-size:22pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.apppagent34' | translate }}
+         
+         
+                            </p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.apppagent35' | translate }}
+  </p>
+</div>    
+ 
+               
+<div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;" >
+    <p style="margin-left: 10px; color: #000000; font-weight: 500;">
+        <img src="assets/img/agent-landing/topup.png" alt="iphone" style="margin-left: 5px;height: 40px!important;max-width:150px!important;">
+<span style="font-size:22pt!important;color:#03a1de">a</span>
+<span style="font-size:14pt!important;color:#03a1de">p</span>
+<span style="font-size:14pt!important;color:#03a1de">p</span>
+<span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+<span style="font-size:22pt!important;color:#03a1de">p</span>
+<span style="font-size:14pt!important;color:#03a1de">a</span>
+<span style="font-size:14pt!important;color:#03a1de">y</span>
+<span style="font-size:14pt!important;color:#03a1de">'s</span>
+{{ 'demo.apppagent36' | translate }}
+
+        </p>
+</div>
+
+<div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+<p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.apppagent37' | translate }}
+</p>
+</div>  
+
+<div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.apppagent38' | translate }}
+    </p>
+    </div>  
+    
+
+
+
+                
+                </div>
+            </div>
+
+      
+        </div>
+    </div>
+</section>
+
+
+
+<section class=" pt-100 pb-30"style="top:100px;margin-top: 30px;">
+    <div class="container">
+     
+
+        <div class="row ">
+            
+
+<div class="col-lg-12 text-center mb-3">
+         
+    <h2  class="mt-2 mb-3"style="font-size:16pt;">{{ 'demo.apppagent39' | translate }}</h2>
+  
+    </div>
+            <div class="col-lg-12">
+                <div class="why-choose-img wow fadeInUp" data-wow-duration="1s">
+                    <img src="assets/img/agent-landing/latinmap.jpg" alt="why choose image">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </section>
+
+    <section class="how-use pt-20 pb-70"style="padding-bottom: 80px;">
+
+
+        <div class="newsletter">
+           
+                <div class="newsletter-area " style="background: #069fe9;border-radius: 0px!important;">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="newsletter-text" style="text-align: center;">
+                                <h3>{{ 'demo.apppagent40' | translate }}</h3>
+                                <p>{{ 'demo.apppagent41' | translate }}</p>
+                            </div>
+                        </div>
+        
+                      
+                    </div>
+        
+             
+              
+        
+        </div>
+        
+        
+        </div>
+        </section>
+        
+        
+        <section id="apps" class="our-apps " style="padding-bottom: 220px;">
+           
+          
+        
+            <div id="contact" class="contact-section ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 ">
+                            <div class="contact-form">
+                                <h2 class="text-center">{{ 'demo.apppagent42' | translate }}</h2>
+                                <p >{{ 'demo.apppagent43' | translate }}</p>
+                                <form id="contactForm">
+                                    <div class="row">
+                                        
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent44' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent45' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent46' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent47' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent48' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent49' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent50' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent51' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent52' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent53' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent54' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label> {{ 'demo.apppagent55' | translate }}</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="radio" value="yes" formControlName="gender"> Yes
+                                                <input type="radio" value="no" formControlName="gender"> No
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                              <label>{{ 'demo.apppagent56' | translate }} </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <input type="radio" value="yes" formControlName="gender"> Yes
+                                                <input type="radio" value="no" formControlName="gender"> No
+                                            </div>
+                                        </div>
+                                    
+                                
+                                    
+                                        <div class="col-lg-12 col-md-12">
+                                            <button type="submit" class="default-btn contact-btn text-center">{{ 'demo.apppagent57' | translate }}</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+<!--<section class="how-use pt-100">
+    <div class="container">
+        <div class="section-title">
+           
+            <h2>Competitive Edge</h2>
+           
+        </div>
+
+        <div class="row  align-items-center">
+            <div class="col-lg-6">
+                <div class="row align-items-center">
+                
+                    <div class="col-lg-12 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                        <p>APPOPAY partnership with our Financial Institutional Partners will leverage the Coop network integrated services and products to quickly gain mobile money market share. Appopay e-Wallet integrates with financial institutions back office software to enable the client’s customers to store, send, pay and receive payments worldwide. End users are in complete control of their money and transactions are quick, seamless, and safe. Mobile money accounts can be issued on demand by Mobile/Online and get SMS codes in country of operation,</p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                        <p>APPOPAY partnership with our Financial Institutional Partners will leverage the Coop network integrated services and products to quickly gain mobile money market share. Appopay e-Wallet integrates with financial institutions back office software to enable the client’s customers to store, send, pay and receive payments worldwide. End users are in complete control of their money and transactions are quick, seamless, and safe. Mobile money accounts can be issued on demand by Mobile/Online and get SMS codes in country of operation,</p>
+                    </div>
+                
+                
+                </div>
+            </div>
+
+            <div class="col-lg-4 " data-wow-duration="1s">
+
+                        <div class="banner-img text-right">
+                            <img src="assets/img/app-landing/abtus.png" alt="iphone" style="height: 500px!important;max-width:600px!important;">
+                        </div>
+                
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-lg-3 col-sm-6 foota">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo-white.png" alt="logo" style="width:200px;">
+                    </div>
+
+                    <div class="footer-link mb-3">
+                        <a  target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay">
+                            <img src="assets/img/google-play.png" alt="google image" style="height:35px;width:330px;">
+                        </a>
+
+                        <a  target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                            <img src="assets/img/app-store.png" alt="google image" style="height:35px;width:330px;">
+                        </a>
+                    </div>
+                    <h6 style="color:#fff;font-weight:700;font-size:20px;">{{ 'demo.applanding229' | translate }}</h6>
+
+                    <div class="footer-link mb-2">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/DSS-Logo.png" alt="google image" style="width:330px;">
+                        </a>
+
+
+                    </div>
+                    <div class="footer-link mb-2">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/trust-seal-protected.png" alt="google image" style="width:330px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 foot">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding234' | translate }}</h3>
+
+                    <ul>
+                        <li><a  routerLink="/business"><i class="flaticon-right"></i> {{ 'demo.applanding230' | translate }}</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i> {{ 'demo.applanding231' | translate }}</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i> {{ 'demo.applanding232' | translate }}</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 footb">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding233' | translate }}</h3>
+
+
+
+
+
+
+                    <ul>
+                        <li><a routerLink=""><i class="flaticon-right"></i> {{ 'demo.applanding235' | translate }}</a></li>
+                        <li><a routerLink="/privacypolicy"><i class="flaticon-right"></i> {{ 'demo.applanding236' | translate }}</a></li>
+                        <li><a routerLink="/termsofuse"><i class="flaticon-right"></i> {{ 'demo.applanding237' | translate }}</a></li>
+                         <li><a routerLink="/contact-us"><i class="flaticon-right"></i> {{ 'demo.applanding238' | translate }}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 footc">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding239' | translate }}</h3>
+
+
+
+                    <ul>
+                        <li><a href="Appopay"><i class="flaticon-right"></i>Location: Appopay </a></li>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Via Transistmica Plaza Nani alado
+                            </a></li>
+                        <li><a href="tel:+02452142314" style="margin-left: 13px;"> Pharmacia metro Plus </a></li>
+
+
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Panama, Republica de Panama </a>
+                        </li>
+
+
+                        <li><a href="mailto:hello@euzan.com"><i class="flaticon-right"></i>Email:support@appopay.com</a>
+                        </li>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Phone:+5073731199</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 footex">
+                <div class="footer-widget">
+
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <img src="assets/img/bank_logo2.png" alt="logo" style="width:200px;">
+                        </div>
+                        <h6 style="color:#fff;font-weight:600;">{{ 'demo.applanding240' | translate }}</h6>
+                        <div class="footer-logo">
+                            <img src="assets/img/bottomlogo.png" alt="logo" style="width:200px;">
+                        </div>
+
+                        <h6 style="color:#fff;font-weight:600;">{{ 'demo.applanding241' | translate }}</h6>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-4 lh-1">
+                    <img src="assets/img/bottomnew.png" alt="union card">
+                    <img src="assets/img/visa.png" alt="visa card">
+                    <img src="assets/img/american-express.png" alt="american-express">
+                    <img src="assets/img/discover.png" alt="discover">
+                    <img src="assets/img/master-card.png" alt="master card">
+                </div>
+
+                <div class="col-lg-6 col-md-8 lh-1">
+                    <p>Copyright @2019 appopay.com. All rights reserved <a href="https://appopay.com/appopaynew"
+                            target="_blank"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="top-btn">
+    <i class="flaticon-rocket"></i>
+</div>
+

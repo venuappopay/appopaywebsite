@@ -1,0 +1,713 @@
+<nav class="navbar navbar-expand-md navbar-light navbar-area">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/app-landing">
+            <img src="assets/img/appopaynews.png" alt="logo" style="width:100px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item"><a class="nav-link active" routerLink="/app-landing">Merchant</a></li>
+              
+  
+
+
+    <li class="nav-item"><a class="nav-link" routerLink="/contact-us">Agent</a></li>
+
+    <li class="nav-item"><a class="nav-link" routerLink="/contact-us">QR Code</a></li>
+    <li class="nav-item">
+
+        <div class="dropdown">
+            <div class="nav-link" routerLink="/processing">Language
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-content">
+
+    <li> <a  routerLink="/app-landing">English</a></li>
+    <li> <a routerLink="/app-landing">Spanish</a></li>
+    <li><a routerLink="/app-landing">Chinese</a> </li>
+  
+
+    </div>
+    </div>
+
+    </li>
+
+    </ul>
+
+    <div class="navbar-btn">
+        <a href="https://appopay.com/appopayadmin/#/system/login" target="_blank"> Customer Login</a>
+    </div>
+    <div class="navbar-btn">
+        <a href="https://appopay.com/merchantadmin/#/system/login" target="_blank">Merchant Login</a>
+    </div>
+    </div>
+    </div>
+</nav>
+<style>
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 1px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+
+
+
+    .dropdown-content {
+        display: none;
+        position: fixed;
+    
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        background-color: #0899e7;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+
+<div style="width: 100%; height:100%; text-align:center;margin:0; padding:0;">
+    <ng-image-slider #nav [images]="imageObject" [infinite]="true" [autoSlide]="3"
+      [imageSize]="{width: '100%', height: 700}" slideImage="1"></ng-image-slider>
+  </div>
+
+<section id="about" class="about-section pt-100 pb-70">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-4 p-0">
+                <div class="about-img wow fadeInUp" data-wow-duration="1s">
+                    <img src="assets/img/personal-portfolio/2.png" alt="about image">
+                    
+                    <div class="about-img-text">
+                        <p>Amelia Anderson</p>
+                        <ul>
+                            <li><a href="#" target="_blank"><i class="flaticon-facebook"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="flaticon-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="flaticon-behance"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="flaticon-globe"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="about-text wow fadeInUp" data-wow-duration="1s">
+                    <h2>A Little Brief About Myself</h2>
+                    <p>My name is Amelia Anderson. I live in New York city. I am a UIUX     designer. UI, or user interface, focuses on the look and layout. A UX designer
+                    ensures a product makes sense to the user by creating a path that logically flows from one step to the next. A UI designer ensures each page visually communicates that path. And I have 10 years Experience.</p>
+
+                    <ul>
+                        <li><i class="flaticon-email"></i>amelia@landset.com</li>
+
+                        <li><i class="flaticon-maps-and-flags"></i>28/A Street, New York, USA</li>
+
+                        <li><i class="flaticon-call"></i>+13028580567</li>
+
+                        <li><i class="flaticon-globe"></i>www.domain.com</li>
+
+                        <li><i class="flaticon-flag"></i>North American</li>
+
+                        <li><i class="flaticon-work-from-home"></i>Available Freelancer</li>
+                    </ul>
+
+                    <div class="about-btn">
+                        <a routerLink="/portfolio-landing">Hire Now</a>
+                        <a routerLink="/portfolio-landing">See My Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-shape">
+        <img src="assets/img/map-two.png" alt="map">
+    </div>
+</section>
+
+<section id="service" class="service-style-three pb-70">
+    <div class="container">
+        <div class="section-title">
+            <h2>Services I Provide for Clients</h2>
+            <p>This feature is essential for any mobile app, so make sure you have it! These types of notifications can directly alert your user.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-items wow fadeInUp" data-wow-duration="1s">
+                    <i class="flaticon-ui"></i>
+                    <h3>UIUX Design</h3>
+                    <p>When it comes after the noun, the ar djective usually doesn't get a hyphen. So we say an easy to remember.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-items wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2">
+                    <i class="flaticon-web-programming"></i>
+                    <h3>Web Development</h3>
+                    <p>When it comes after the noun, the ar djective usually doesn't get a hyphen. So we say an easy to remember.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-items wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3">
+                    <i class="flaticon-medical-app"></i>
+                    <h3>App Development</h3>
+                    <p>When it comes after the noun, the ar djective usually doesn't get a hyphen. So we say an easy to remember.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-items wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4">
+                    <i class="flaticon-writing"></i>
+                    <h3>Conent Writing</h3>
+                    <p>When it comes after the noun, the ar djective usually doesn't get a hyphen. So we say an easy to remember.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-items active wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5">
+                    <i class="flaticon-java"></i>
+                    <h3>Java Coding</h3>
+                    <p>When it comes after the noun, the ar djective usually doesn't get a hyphen. So we say an easy to remember.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-items wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6">
+                    <i class="flaticon-video"></i>
+                    <h3>Video Editing</h3>
+                    <p>When it comes after the noun, the ar djective usually doesn't get a hyphen. So we say an easy to remember.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="software" class="software-section pt-100 pb-70">
+    <div class="container">
+        <div class="section-title">
+            <h2>Software I Use For Work</h2>
+            <p>This feature is essential for any mobile app, so make sure you have it! These types of notifications can directly alert your user.</p>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="software-img">
+                    <img src="assets/img/personal-portfolio/3.png" alt="software image">
+
+                    <div class="software-img-text">
+                        <img src="assets/img/personal-portfolio/icon-1.png" alt="photoshop icon">
+                        <p>Adobe Photoshop 2019</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="software-text">
+                    <ul class="nav nav-tabs" id="tab-two" role="tablist">
+                        <li class="nav-item"><a class="active" id="ux-tab" data-toggle="tab" href="#ux" role="tab" aria-controls="ux" aria-selected="true">UIUX  Design</a></li>
+
+                        <li class="nav-item"><a class="" id="web-tab" data-toggle="tab" href="#web" role="tab" aria-controls="web" aria-selected="false">Web Development</a></li>
+
+                        <li class="nav-item"><a class="" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video Editing</a></li>
+                    </ul>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="ux" role="tabpanel" aria-labelledby="ux-tab">
+                            <h2>Adobe Photoshop 2019</h2>
+                            <p>Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, the software has become the industry standard not only in raster graphics editing, but in digital art as a whole.</p>
+                            <h3>Also Worked With</h3>
+                            <ul>
+                                <li><img src="assets/img/personal-portfolio/icon-2.png" alt="adobe xd icon"></li>
+                                <li><img src="assets/img/personal-portfolio/icon-3.png" alt="figma icon"></li>
+                            </ul>
+                            <a routerLink="/portfolio-landing" class="software-link">Hire Now</a>
+                        </div>
+
+                        <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web-tab">
+                            <h2>Visual Studio</h2>
+                            <p>Visual Studio is a raster code editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, the software has become the industry standard not only in raster graphics editing, but in digital art as a whole.</p>
+                            <h3>Also Worked With</h3>
+                            <ul>
+                                <li><img src="assets/img/personal-portfolio/icon-2.png" alt="adobe xd icon"></li>
+                                <li><img src="assets/img/personal-portfolio/icon-3.png" alt="figma icon"></li>
+                            </ul>
+                            <a routerLink="/portfolio-landing" class="software-link">Hire Now</a>
+                        </div>
+
+                        <div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
+                            <h2>Adobe Premierer</h2>
+                            <p>Adobe Premiere is a raster video editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, the software has become the industry standard not only in raster graphics editing, but in digital art as a whole.</p>
+                            <h3>Also Worked With</h3>
+                            <ul>
+                                <li><img src="assets/img/personal-portfolio/icon-2.png" alt="adobe xd icon"></li>
+                                <li><img src="assets/img/personal-portfolio/icon-3.png" alt="figma icon"></li>
+                            </ul>
+                            <a routerLink="/portfolio-landing" class="software-link">Hire Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="software-shape">
+        <img src="assets/img/shape/home-shape.png" alt="shape">
+        <img src="assets/img/shape/home-shape-four.png" alt="shape">
+        <img src="assets/img/shape/home-shape-two.png" alt="shape">
+        <img src="assets/img/shape/subscribe-shape-three.png" alt="shape">
+    </div>
+</section>
+
+<section id="showcase" class="show-case-section pt-100 pb-70">
+    <div class="container">
+        <div class="section-title">
+            <h2>My Latest Works As Showcase</h2>
+            <p>App Store and Google Play Store gift cards are interchangeable, so no matter which one you received  you can use the credit for apps.</p>
+        </div>
+
+        <div class="showcase-menu text-center">
+            <ul>
+                <li class="filter" data-filter="all">All</li>
+                <li class="filter" data-filter=".ux">UIUX  Design</li>
+                <li class="filter" data-filter=".development">Web Development</li>
+                <li class="filter" data-filter=".writing">Content Writiing</li>
+                <li class="filter" data-filter=".editing">Video Editing</li>
+            </ul>
+        </div>
+
+        <div id="Container" class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 mix ux development">
+                <div class="showcase-card">
+                    <img src="assets/img/personal-portfolio/showcase/1.jpg" alt="showcase image">
+
+                    <div class="showcsae-text">
+                        <h3>UX Case Study</h3>
+                        <p>User experience is a person's emotions and attitudes about using a particular product, system or service.</p>
+                    </div>
+
+                    <div class="shoscase-hover">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <h3>UX Case Study</h3>
+                                <p>A Website content writer or web content writer is a person who specializes in
+                                providing relevant content for websites. Every website has a specific target
+                                audience and requires the most relevant content to attract business. Content should contain keywords aimed towards improving a website's SEO.</p>
+                                <ul class="text-center">
+                                    <li><a routerLink="#"><i class="flaticon-link"></i></a></li>
+                                    <li><a href="assets/img/personal-portfolio/showcase/1.jpg" class="popup-gallery"><i class="flaticon-view"></i></a></li>
+                                    <li><a routerLink="#"><i class="flaticon-share"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mix writing editing">
+                <div class="showcase-card">
+                    <img src="assets/img/personal-portfolio/showcase/2.jpg" alt="showcase image">
+
+                    <div class="showcsae-text">
+                        <h3>Video Editing</h3>
+                        <p>User experience is a person's emotions and attitudes about using a particular product, system or service.</p>
+                    </div>
+
+                    <div class="shoscase-hover">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <h3>Content Writing</h3>
+                                <p>A Website content writer or web content writer is a person who specializes in
+                                providing relevant content for websites. Every website has a specific target
+                                audience and requires the most relevant content to attract business. Content should contain keywords aimed towards improving a website's SEO.</p>
+                                <ul class="text-center">
+                                    <li><a routerLink="#"><i class="flaticon-link"></i></a></li>
+                                    <li><a href="assets/img/personal-portfolio/showcase/2.jpg" class="popup-gallery"><i class="flaticon-view"></i></a></li>
+                                    <li><a routerLink="#"><i class="flaticon-share"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mix development writing">
+                <div class="showcase-card">
+                    <img src="assets/img/personal-portfolio/showcase/3.jpg" alt="showcase image">
+
+                    <div class="showcsae-text">
+                        <h3>App Development</h3>
+                        <p>Mobile app development is the act or process by which a mobile app is developed for mobile devices.</p>
+                    </div>
+
+                    <div class="shoscase-hover">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <h3>App Development</h3>
+                                <p>A Website content writer or web content writer is a person who specializes in
+                                providing relevant content for websites. Every website has a specific target
+                                audience and requires the most relevant content to attract business. Content should contain keywords aimed towards improving a website's SEO.</p>
+                                <ul class="text-center">
+                                    <li><a routerLink="#"><i class="flaticon-link"></i></a></li>
+                                    <li><a href="assets/img/personal-portfolio/showcase/3.jpg" class="popup-gallery"><i class="flaticon-view"></i></a></li>
+                                    <li><a routerLink="#"><i class="flaticon-share"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mix editing development">
+                <div class="showcase-card">
+                    <img src="assets/img/personal-portfolio/showcase/4.jpg" alt="showcase image">
+
+                    <div class="showcsae-text">
+                        <h3>Content Writing</h3>
+                        <p>User experience is a person's emotions and attitudes about using a particular product, system or service.</p>
+                    </div>
+
+                    <div class="shoscase-hover">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <h3>Content Writing</h3>
+                                <p>A Website content writer or web content writer is a person who specializes in
+                                providing relevant content for websites. Every website has a specific target
+                                audience and requires the most relevant content to attract business. Content should contain keywords aimed towards improving a website's SEO.</p>
+                                <ul class="text-center">
+                                    <li><a routerLink="#"><i class="flaticon-link"></i></a></li>
+                                    <li><a href="assets/img/personal-portfolio/showcase/4.jpg" class="popup-gallery"><i class="flaticon-view"></i></a></li>
+                                    <li><a routerLink="#"><i class="flaticon-share"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mix ux">
+                <div class="showcase-card">
+                    <img src="assets/img/personal-portfolio/showcase/5.jpg" alt="showcase image">
+
+                    <div class="showcsae-text">
+                        <h3>Web Development</h3>
+                        <p>Mobile app development is the act or process by which a mobile app is developed for mobile devices.</p>
+                    </div>
+
+                    <div class="shoscase-hover">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <h3>Web Development</h3>
+                                <p>A Website content writer or web content writer is a person who specializes in
+                                providing relevant content for websites. Every website has a specific target
+                                audience and requires the most relevant content to attract business. Content should contain keywords aimed towards improving a website's SEO.</p>
+                                <ul class="text-center">
+                                    <li><a routerLink="#"><i class="flaticon-link"></i></a></li>
+                                    <li><a href="assets/img/personal-portfolio/showcase/5.jpg" class="popup-gallery"><i class="flaticon-view"></i></a></li>
+                                    <li><a routerLink="#"><i class="flaticon-share"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 mix editor">
+                <div class="showcase-card">
+                    <img src="assets/img/personal-portfolio/showcase/6.jpg" alt="showcase image">
+
+                    <div class="showcsae-text">
+                        <h3>UI Design</h3>
+                        <p>Mobile app development is the act or process by which a mobile app is developed for mobile devices.</p>
+                    </div>
+
+                    <div class="shoscase-hover">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <h3>UI Design</h3>
+                                <p>A Website content writer or web content writer is a person who specializes in
+                                providing relevant content for websites. Every website has a specific target
+                                audience and requires the most relevant content to attract business. Content should contain keywords aimed towards improving a website's SEO.</p>
+                                <ul class="text-center">
+                                    <li><a routerLink="#"><i class="flaticon-link"></i></a></li>
+                                    <li><a href="assets/img/personal-portfolio/showcase/6.jpg" class="popup-gallery"><i class="flaticon-view"></i></a></li>
+                                    <li><a routerLink="#"><i class="flaticon-share"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="trusted-company pt-100 pb-70">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Worked With</h2>
+            <p>This feature is essential for any mobile app, so make sure you have it! These types of notifications can directly alert your user.</p>
+        </div>
+
+        <div class="company-slider owl-carousel owl-theme">
+            <div class="company-items">
+                <a href="#" target="_blank">
+                    <img src="assets/img/sass-landing/company/1.png" alt="company logo">
+                </a>
+            </div>
+
+            <div class="company-items">
+                <a href="#" target="_blank">
+                    <img src="assets/img/sass-landing/company/2.png" alt="company logo">
+                </a>
+            </div>
+
+            <div class="company-items">
+                <a href="#" target="_blank">
+                    <img src="assets/img/sass-landing/company/3.png" alt="company logo">
+                </a>
+            </div>
+
+            <div class="company-items">
+                <a href="#" target="_blank">
+                    <img src="assets/img/sass-landing/company/4.png" alt="company logo">
+                </a>
+            </div>
+
+            <div class="company-items">
+                <a href="#" target="_blank">
+                    <img src="assets/img/sass-landing/company/2.png" alt="company logo">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonial" class="testimonial-style-three">
+    <div class="container">
+        <div class="section-title">
+            <h2>Peoples Quotes About Me</h2>
+            <p>App Store and Google Play Store gift cards are interchangeable, so no matter which one you received  you can use the credit for apps.</p>
+        </div>
+    </div>
+
+    <div class="testimonial-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1 col-sm-10 offset-sm-1">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-8 offset-lg-0  offset-md-2">
+                            <div class="testimonial-image-slider slider-nav text-center">
+                                <div class="sin-testiImage">
+                                    <img src="assets/img/personal-portfolio/testimonial/1.png" alt="client image">
+                                </div>
+
+                                <div class="sin-testiImage">
+                                    <img src="assets/img/personal-portfolio/testimonial/2.png" alt="client image">
+                                </div>
+
+                                <div class="sin-testiImage">
+                                    <img src="assets/img/personal-portfolio/testimonial/3.png" alt="client image">
+                                </div>
+
+                                <div class="sin-testiImage">
+                                    <img src="assets/img/personal-portfolio/testimonial/4.png" alt="client image">
+                                </div>
+
+                                <div class="sin-testiImage">
+                                    <img src="assets/img/personal-portfolio/testimonial/5.png" alt="client image">
+                                </div>
+
+                                <div class="sin-testiImage">
+                                    <img src="assets/img/personal-portfolio/testimonial/6.png" alt="client image">
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="testimonial-text-slider slider-for text-center">
+                        <div class="sin-testiText">
+                            <h2>John Doe</h2>
+                            <span>Treaveller</span>
+                            <p>I am really enjoying this with him. I was surprised that he did complete all my recommendataion in time. Every time I will suggest him to do work with John Deo.</p>
+                        </div>
+                        
+                        <div class="sin-testiText">
+                            <h2>Alice</h2>
+                            <span>UX Designer</span>
+                            <p>I am really enjoying this with him. I was surprised that he did complete all my recommendataion in time. Every time I will suggest him to do work with John Deo.</p>
+                        </div>
+
+                        <div class="sin-testiText">
+                            <h2>Caroline</h2>
+                            <span>analyst</span>
+                            <p>I am really enjoying this with him. I was surprised that he did complete all my recommendataion in time. Every time I will suggest him to do work with John Deo.</p>
+                        </div>
+
+                        <div class="sin-testiText">
+                            <h2>Eddey</h2>
+                            <span>Treaveller</span>
+                            <p>I am really enjoying this with him. I was surprised that he did complete all my recommendataion in time. Every time I will suggest him to do work with John Deo.</p>
+                        </div>
+
+                        <div class="sin-testiText">
+                            <h2>William</h2>
+                            <span>SEO Expert</span>
+                            <p>I am really enjoying this with him. I was surprised that he did complete all my recommendataion in time. Every time I will suggest him to do work with John Deo.</p>
+                        </div>
+
+                        <div class="sin-testiText">
+                            <h2>Smith</h2>
+                            <span>Editor</span>
+                            <p>I am really enjoying this with him. I was surprised that he did complete all my recommendataion in time. Every time I will suggest him to do work with John Deo.</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="contact" class="contact-section contact-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 offset-lg-5">
+                <div class="contact-form">
+                    <h2>Let Me Know Your Project</h2>
+
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-12 col-sm-6">
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-12 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="message-field" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-12 col-md-12">
+                                <button type="submit" class="default-btn contact-btn">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-area footer-style-three footer-style-four">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </div>
+                    <p>My name is Amelia Anderson. I live in New York city. I am a professional UIUX designer.</p>
+                    <div class="footer-btn">
+                        <a routerLink="/portfolio-landing">Hire Me</a>
+                        <a routerLink="/portfolio-landing">Download CV</a>    
+                    </div>
+                </div>                       
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-widget pl-90">
+                    <h3>Company</h3>
+
+                    <ul>
+                        <li><a href="#"><i class="flaticon-right"></i>Advertise</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i>Support</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i>Marketing</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i>Bonus</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-widget pl-90">
+                    <h3>Quick Links</h3>
+
+                    <ul>
+                        <li><a href="#"><i class="flaticon-right"></i>Home</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i>Features</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i>Screenshots</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i>Pricing</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i>Testimonial</a>   </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-widget pl-90">
+                    <h3>Find Us</h3>
+
+                    <ul>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i> +0245 214 2314</a></li>
+                        <li><a href="mailto:hello@euzan.com"><i class="flaticon-right"></i> hello@euzan.com</a></li>
+                        <li><i class="flaticon-right"></i> 28/A Street, USA</li>
+                    </ul>
+
+                    <div class="footer-social">
+                        <a target="_blank" href="#"><i class="flaticon-facebook"></i></a>
+                        <a target="_blank" href="#"><i class="flaticon-twitter"></i></a>
+                        <a target="_blank" href="#"><i class="flaticon-linkedin"></i></a>
+                        <a target="_blank" href="#"><i class="flaticon-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="top-btn">
+    <i class="flaticon-startup"></i>
+</div>

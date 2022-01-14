@@ -1,0 +1,337 @@
+<nav class="navbar navbar-expand-md navbar-light navbar-area pt-100 pb-50" style="background-color: #079ee8;">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/app-landing">
+            <img src="assets/img/appopaynews.png" alt="logo" style="width:100px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link " routerLink="/app-landing">Home</a></li>
+              
+                <li class="nav-item"><a class="nav-link " routerLink="/app-merchant">Merchant</a></li>
+              
+  
+
+
+    <li class="nav-item"><a class="nav-link" routerLink="/qrcode">QR Code</a></li>
+    <li class="nav-item">
+
+        <div class="dropdown">
+            <div class="nav-link" routerLink="/processing">Language
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-content">
+
+    <li> <a  routerLink="/app-landing">English</a></li>
+    <li> <a routerLink="/app-landing">Spanish</a></li>
+    <li><a routerLink="/app-landing">Chinese</a> </li>
+  
+
+    </div>
+    </div>
+
+    </li>
+
+    </ul>
+
+    <div class="navbar-btn">
+        <a href="https://appopay.com/appopayadmin/#/system/login" target="_blank"> Customer Login</a>
+    </div>
+    <div class="navbar-btn">
+        <a href="https://appopay.com/merchantadmin/#/system/login" target="_blank">Merchant Login</a>
+    </div>
+    </div>
+    </div>
+</nav>
+<style>
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 1px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+
+
+
+    .dropdown-content {
+        display: none;
+        position: fixed;
+    
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        background-color: #0899e7;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+
+
+<!-- Start Contact Area -->
+<section class="contact-area pt-100 pb-70" style="margin-top: 50px;">
+    <div class="container">
+        <div class="col-lg-12 col-md-12 section-title">
+            <h2> Drop us a message for more information</h2>
+            <div class="bar"></div>
+          
+        </div>
+
+        <div class="row">
+            <div class="col-lg-5 col-md-12">
+                <div class="contact-info">
+                    <ul>
+                       
+
+
+                       <li>
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <span>Address</span>
+                        
+                            Appopay ,Transistmeca alado pharmaciametro,Panama, Panama 
+                        </li>
+
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <span> Email</span>
+                            <a href="#">support@appopay.com</a>
+                           
+                        </li>
+
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <span> Phone</span>
+                            <a href="#"> +507 373 1199 </a>
+                          
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-md-12">
+                <div class="contact-form">
+                    <form  >
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                   
+                                    <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder=" Name" ngModel>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder=" Email" ngModel >
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder=" Phone" ngModel>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder=" Subject" ngModel>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="6" required data-error="Write your message" placeholder=" Your Message" ngModel></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12">
+                                <button  type="submit" class="btn btn-primary">Submit</button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-lg-3 col-sm-6 foota">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo-white.png" alt="logo" style="width:200px;">
+                    </div>
+
+                    <div class="footer-link mb-3">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/google-play.png" alt="google image" style="height:35px;width:330px;">
+                        </a>
+
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/app-store.png" alt="google image" style="height:35px;width:330px;">
+                        </a>
+                    </div>
+                    <h6 style="color:#fff;font-weight:700;font-size:20px;">PCI COMPILANCE</h6>
+
+                    <div class="footer-link mb-2">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/DSS-Logo.png" alt="google image" style="width:330px;">
+                        </a>
+
+
+                    </div>
+                    <div class="footer-link mb-2">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/trust-seal-protected.png" alt="google image" style="width:330px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 foot">
+                <div class="footer-widget">
+                    <h3>Company</h3>
+
+                    <ul>
+                        <li><a href="#"><i class="flaticon-right"></i> About Us</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i> Services</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i> Features</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 footb">
+                <div class="footer-widget">
+                    <h3>Support</h3>
+
+
+
+
+
+
+                    <ul>
+                        <li><a routerLink=""><i class="flaticon-right"></i> FAQ's</a></li>
+                        <li><a routerLink="/privacypolicy"><i class="flaticon-right"></i> Privacy Policy</a></li>
+                        <li><a routerLink="/termsofuse"><i class="flaticon-right"></i> Terms & Condition</a></li>
+                          <li><a routerLink="/contact-us"><i class="flaticon-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 footc">
+                <div class="footer-widget">
+                    <h3>Address</h3>
+
+
+
+                    <ul>
+                        <li><a href="Appopay"><i class="flaticon-right"></i>Location: Appopay </a></li>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Via Transistmica Plaza Nani alado
+                            </a></li>
+                        <li><a href="tel:+02452142314" style="margin-left: 13px;"> Pharmacia metro Plus </a></li>
+
+
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Panama, Republica de Panama </a>
+                        </li>
+
+
+                        <li><a href="mailto:hello@euzan.com"><i class="flaticon-right"></i>Email:support@appopay.com</a>
+                        </li>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Phone:+5073731199</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 footex">
+                <div class="footer-widget">
+
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <img src="assets/img/bank_logo2.png" alt="logo" style="width:200px;">
+                        </div>
+                        <h6 style="color:#fff;font-weight:600;">powered by Credicorp Bank</h6>
+                        <div class="footer-logo">
+                            <img src="assets/img/bottomlogo.png" alt="logo" style="width:200px;">
+                        </div>
+
+                        <h6 style="color:#fff;font-weight:600;">Registered with UnionPay International as TPSP</h6>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-4 lh-1">
+                    <img src="assets/img/bottomnew.png" alt="union card">
+                    <img src="assets/img/visa.png" alt="visa card">
+                    <img src="assets/img/american-express.png" alt="american-express">
+                    <img src="assets/img/discover.png" alt="discover">
+                    <img src="assets/img/master-card.png" alt="master card">
+                </div>
+
+                <div class="col-lg-6 col-md-8 lh-1">
+                    <p>Copyright @2019 appopay.com. All rights reserved <a href="https://appopay.com/appopaynew"
+                            target="_blank"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="top-btn">
+    <i class="flaticon-rocket"></i>
+</div>

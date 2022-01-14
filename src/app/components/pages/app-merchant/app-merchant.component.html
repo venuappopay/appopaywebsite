@@ -1,0 +1,788 @@
+<nav class="navbar navbar-expand-md navbar-light navbar-area">
+    <div class="container">
+        <a class="navbar-brand" href="#" routerLink="/app-landing">
+            <img src="assets/img/integratedsollogo.png" alt="logo" style="width:250px;">
+        </a>
+
+  
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+               
+                <li class="nav-item"><a class="nav-link " routerLink="/app-landing">{{ 'demo.appmerchant1' | translate }}</a></li>
+         
+                <li class="nav-item"><a class="nav-link" routerLink="/gateway-services">{{ 'demo.appmerchant2' | translate }}</a></li>
+
+                <li class="nav-item"><a class="nav-link" routerLink="/processing">{{ 'demo.appmerchant3' | translate }}</a></li>
+
+                <li class="nav-item">
+
+                    <div class="dropdown">
+                        <div class="nav-link" >{{ 'demo.appmerchant4' | translate }}
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+                        <div class="dropdown-content">
+         
+		 <li> <a [routerLink]="" (click)="useLanguage('en')" >English</a></li>
+                <li> <a [routerLink]="" (click)="useLanguage('de')">Spanish</a></li>
+                <li><a routerLink="/app-landing">Chinese</a> </li>
+                </div>
+                </div>
+            
+                </li>
+            </ul>
+
+            <div class="navbar-btn">
+                <a href="https://appopay.com/merchantapplication/#/" target="_blank" style="  color: #00a5e2 !important;">{{ 'demo.appmerchant5' | translate }}</a>
+            </div>
+            <div class="navbar-btn">
+                <a  href="#"routerLink="/contact-us" style="  color: #00a5e2 !important;">{{ 'demo.appmerchant6' | translate }}</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<style>
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 1px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+
+
+
+    .dropdown-content {
+        display: none;
+        position: fixed;
+       
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        background-color: #0899e7;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f2f2f22e!important;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+<div id="home" class="main-banner banner-bg-four">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+
+                             <div class="app-image">
+                            <div class="main-image" style="margin-top: 8.5rem !important;">
+                           
+                                <img src="assets/img/bulba.png" style="margin-top:-52px;max-width: 80%!important;"class="wow fadeInUp" data-wow-delay="0.9s" alt="image">
+                            </div>
+        
+                        
+        
+                            <div class="circle-img">
+                                <img src="assets/img/sliderlanding/circle.png" alt="image">
+                            </div>
+                        </div>
+                        <!--  <div style="margin-top: 12.5rem !important;">
+                            <img class="bulb" src="assets/img/bulba.png" alt="iphone">
+                         
+                             <h1>Let us help you grow </h1> 
+                            <div class="banner-btn">
+                                <a routerLink="/app-landing">Download App</a>
+                                <a href="https://vimeo.com/58363288" class="banner-video popup-vimeo"><i class="flaticon-play-button"></i> Watch Video</a>
+                            </div>
+                        </div>-->
+                    </div>
+                  
+                   <!-- <div class="col-lg-5">
+                        <div class="banner-img text-right">
+                            <img src="assets/img/bulb.png" alt="iphone">
+                        </div>
+                    </div>-->
+                </div>  
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<section class="how-use pt-100">
+    <div class="container">
+      
+        <div class="row  align-items-center">
+
+            <div class="col-lg-5 " data-wow-duration="1s">
+
+                <div class="banner-img text-right">
+                    <img src="assets/img/merchantpage/Qrscanner1.jpg" alt="iphone" style="margin-top: 55px;height: 485px!important;max-width:500px!important;">
+                </div>
+        
+    </div>
+            <div class="col-lg-7">
+                <div class="row ">
+                
+                        <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;margin-top: 25px;text-align: center;">
+                            <img 
+                            src="assets/img/merchantpage/1.jpg" alt="case study image">
+                        </div>
+    <!--style="width: -moz-available!important;height:160px!important;"-->
+                
+                    <div class="col-lg-12 col-md-6 col-sm-6 " style="margin-top:15px;font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.appmerchant7' | translate }}</p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;"> {{ 'demo.appmerchant8' | translate }}</p>
+                    </div>
+            
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500; line-height:1.4rem">{{ 'demo.appmerchant9' | translate }}
+        <span style="font-size:22pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+        <span style="font-size:22pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.appmerchant10' | translate }} </p>
+</div>    
+<div class="col-lg-12 col-md-6 col-sm-6"   style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+    <h6 style="margin-left: 10px; color: #000; font-weight: 700;font-size: 16pt;">{{ 'demo.appmerchant11' | translate }} </h6>
+</div>    
+
+                
+                </div>
+            </div>
+
+      
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section class="how-use pt-100">
+    <div class="container">
+   
+        <div class="row  align-items-center">
+
+            <div class="col-lg-5 " data-wow-duration="1s">
+                <div class="banner-img text-right">
+                    <img src="assets/img/merchantpage/Laptop shopping.png" alt="iphone" style="margin-top: 55px;height: 485px!important;max-width:500px!important;">
+                </div>
+        
+    </div>
+            <div class="col-lg-7">
+                <div class="row ">
+                
+                    <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;margin-top: 10px;text-align: center;">
+                        <img 
+                        src="assets/img/merchantpage/2.jpg" alt="case study image">
+                    </div>
+
+                        <div class="col-lg-12 col-md-6 col-sm-6"   style="font-family: 'GlacialIndifferenceRegular';margin-top:15px;font-size:14pt;text-align: center;">
+                            <h6 style="margin-left: 10px; color: #000; font-weight: 700;font-size: 16pt;"> {{ 'demo.appmerchant12' | translate }} </h6>
+                        </div>    
+                       
+                    <div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+                           {{ 'demo.appmerchant13' | translate }}
+                            </p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;line-height: 1.4rem;">{{ 'demo.appmerchant14' | translate }} <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.appmerchant15' | translate }}</p>
+                    </div>
+            
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;line-height: 1.4rem;">{{ 'demo.appmerchant16' | translate }}        <span style="font-size:22pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+        <span style="font-size:22pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.appmerchant17' | translate }}
+  </p>
+</div>    
+
+<div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;" >
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">
+       {{ 'demo.appmerchant18' | translate }}
+        </p>
+</div>
+
+
+<div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;" >
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">
+       {{ 'demo.appmerchant19' | translate }}
+        </p>
+</div>
+
+                
+                </div>
+            </div>
+
+      
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="how-use pt-100">
+    <div class="container">
+   
+        <div class="row  align-items-center">
+
+            <div class="col-lg-5 " data-wow-duration="1s">
+                <div class="banner-img text-right">
+                    <img src="assets/img/merchantpage/Circle.png" alt="iphone" style="margin-top: 55px;height: 100% !important;width: 100% !important;">
+                </div>
+        
+    </div>
+            <div class="col-lg-7">
+                <div class="row ">
+                
+                    <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;margin-top: 10px;text-align: center;">
+                        <img style="width: -moz-available!important;"
+                        src="assets/img/merchantpage/3.jpg" alt="case study image">
+                    </div>
+
+                        <div class="col-lg-12 col-md-6 col-sm-6"   style="font-family: 'GlacialIndifferenceRegular';margin-top:15px;font-size:14pt;">
+                            <h6 style="margin-left: 20px; color: #000; font-weight: 700;font-size: 16pt;">{{ 'demo.appmerchant20' | translate }}   </h6>
+                            <h6 style="margin-left: 10px; color: #000; font-weight: 700;font-size: 16pt;float:right;margin-right:75px;"> — {{ 'demo.appmerchant21' | translate }}  </h6>
+                        </div>    
+                       
+                    <div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+                            <i class="fa fa-arrow-right" style="font-size: 18pt !important;
+                            color: #fb7d02;"></i>
+                           {{ 'demo.appmerchant22' | translate }}
+                            </p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+
+    <p style="margin-left: 10px; color: #000; font-weight: 500;line-height: 1.4rem;">    <i class="fa fa-arrow-right" style="font-size: 18pt !important;
+        color: #fb7d02;"></i><span style="margin-left: 10px;">{{ 'demo.appmerchant23' | translate }} </span> 
+          <span style="margin-left: 2px;">{{ 'demo.appmerchant24' | translate }} <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.appmerchant25' | translate }}</span> 
+                            <span >   {{ 'demo.appmerchant26' | translate }}</span> </p>
+                    </div>
+            
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;">
+   <p style="margin-left: 10px; color: #000; font-weight: 500;">    <i class="fa fa-arrow-right" style="font-size: 18pt !important;
+                            color: #fb7d02;"></i>
+                            <span style="margin-left: 10px;"> {{ 'demo.appmerchant27' | translate }} </span>
+  </p>
+</div>    
+
+<div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;" >
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">
+        <i class="fa fa-arrow-right" style="font-size: 18pt !important;
+        color: #fb7d02;"></i> <span> {{ 'demo.appmerchant28' | translate }}</span>
+        </p>
+</div>
+
+
+<div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;" >
+    <p style="margin-left: 10px; color: #000; font-weight: 500;line-height: 1.4rem;">
+        <i class="fa fa-arrow-right" style="font-size: 18pt !important;
+        color: #fb7d02;"></i> {{ 'demo.appmerchant29' | translate }}
+        <span style="font-size:22pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">p</span>
+        <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+        <span style="font-size:22pt!important;color:#03a1de">p</span>
+        <span style="font-size:14pt!important;color:#03a1de">a</span>
+        <span style="font-size:14pt!important;color:#03a1de">y</span> , {{ 'demo.appmerchant30' | translate }}
+        </p>
+</div>
+
+                
+                </div>
+            </div>
+
+      
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="how-use pt-100">
+    <div class="container">
+   
+        <div class="row  align-items-center">
+
+            <div class="col-lg-5 " data-wow-duration="1s">
+                <div class="banner-img text-right">
+                    <img src="assets/img/merchantpage/analysiscell.png" alt="iphone" style="margin-top: 55px;height: 485px!important;max-width:500px!important;">
+                </div>
+        
+    </div>
+            <div class="col-lg-7">
+                <div class="row ">
+                
+                    <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;margin-top: 10px;text-align: center;">
+                        <img style="width: -moz-available!important;"
+                        src="assets/img/merchantpage/7.jpg" alt="case study image">
+                    </div>
+
+   
+                    <div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+                            {{ 'demo.appmerchant31' | translate }} 
+                            </p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.appmerchant32' | translate }}
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.appmerchant33' | translate }}</p>
+                    </div>
+            
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.appmerchant34' | translate }}
+  </p>
+</div>    
+
+<div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;" >
+    <p style="margin-left: 10px; color: #000; font-weight: 500;">
+      {{ 'demo.appmerchant35' | translate }}
+        </p>
+</div>
+
+
+
+
+                
+                </div>
+            </div>
+
+      
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section class="how-use pt-100">
+    <div class="container">
+   
+        <div class="row  align-items-center">
+
+            <div class="col-lg-5 " data-wow-duration="1s">
+                <div class="banner-img text-right">
+                    <img src="assets/img/merchantpage/rewards.jpg" alt="iphone" style="margin-top: 55px;height: 485px!important;max-width:500px!important;">
+                </div>
+                
+    </div>
+            <div class="col-lg-7">
+                <div class="row ">
+                
+                    <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;margin-top: 10px;text-align: center;">
+                        <img style="width: 700px!important;"
+                        src="assets/img/merchantpage/4.jpg" alt="case study image">
+                    </div>
+
+   
+                    <div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.appmerchant36' | translate }} <br>{{ 'demo.appmerchant37' | translate }}
+                            </p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;"><b>{{ 'demo.appmerchant38' | translate }}</b> {{ 'demo.appmerchant39' | translate }}</p>
+                    </div>
+            
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+    <p style="margin-left: 10px; color: #000; font-weight: 500;"><b>{{ 'demo.appmerchant40' | translate }}</b> {{ 'demo.appmerchant41' | translate }}
+  </p>
+</div>    
+
+
+
+
+
+                
+                </div>
+            </div>
+
+      
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="how-use pt-100 pb-70">
+    <div class="container">
+   
+        <div class="row  align-items-center">
+
+            <div class="col-lg-5 " data-wow-duration="1s">
+                <div class="banner-img text-right">
+                    <img src="assets/img/merchantpage/Become an Agent1.jpg" alt="iphone" style="margin-top: 55px;height: 485px!important;max-width:500px!important;">
+                </div>
+        
+    </div>
+            <div class="col-lg-7">
+                <div class="row ">
+                
+                    <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;margin-top: 10px;text-align: center;">
+                        <img style="width:300px!important;height:150px;"
+                        src="assets/img/merchantpage/5.jpg" alt="case study image">
+                    </div>
+
+   
+                    <div class="col-lg-12 col-md-6 col-sm-6 " style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;" >
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">
+                            <span style="font-size:22pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">p</span>
+                            <span style="font-size:22pt!important;color:#fb7d02"><b>O</b></span>
+                            <span style="font-size:22pt!important;color:#03a1de">p</span>
+                            <span style="font-size:14pt!important;color:#03a1de">a</span>
+                            <span style="font-size:14pt!important;color:#03a1de">y</span> {{ 'demo.appmerchant42' | translate }}
+                            </p>
+                    </div>
+
+   <div class="col-lg-12 col-md-6 col-sm-6"  style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+                        <p style="margin-left: 10px; color: #000; font-weight: 500;">{{ 'demo.appmerchant43' | translate }}<br>
+                            {{ 'demo.appmerchant44' | translate }}<br>
+                          {{ 'demo.appmerchant45' | translate }}<br>
+                           {{ 'demo.appmerchant46' | translate }}
+                           
+                           </p>
+                    </div>
+                    <div class="col-lg-12 col-md-6 col-sm-6"   style="font-family: 'GlacialIndifferenceRegular';font-size:14pt;text-align: center;">
+                        <h6 style="margin-left: 10px; color: #000; font-weight: 700;font-size: 16pt;"> {{ 'demo.appmerchant47' | translate }}</h6>
+                    </div>     
+ 
+
+
+
+
+
+                
+                </div>
+            </div>
+
+      
+        </div>
+    </div>
+</section>
+
+
+<!-- Start Contact Area -->
+<section class="contact-area pb-70">
+    <div class="container">
+        <div class="col-lg-12 col-md-12 section-title">
+            <h2> {{ 'demo.appmerchant48' | translate }}</h2>
+            <div class="bar"></div>
+          
+        </div>
+
+        <div class="row">
+            <div class="col-lg-5 col-md-12">
+                <div class="contact-info">
+                    <ul>
+                       
+
+
+                       <li>
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <span>{{ 'demo.appmerchant49' | translate }}</span>
+                        
+                            Appopay ,Transistmeca alado pharmaciametro,Panama, Panama 
+                        </li>
+
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <span> {{ 'demo.appmerchant50' | translate }}</span>
+                            <a href="#">support@appopay.com</a>
+                           
+                        </li>
+
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <span> {{ 'demo.appmerchant51' | translate }}</span>
+                            <a href="#"> +507 373 1199 </a>
+                          
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-md-12">
+                <div class="contact-form">
+                    <form  >
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                   
+                                    <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="{{ 'demo.appmerchant52' | translate }}"  ngModel>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="{{ 'demo.appmerchant50' | translate }}"  ngModel >
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="{{ 'demo.appmerchant51' | translate }}"  ngModel>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="{{ 'demo.appmerchant53' | translate }}"  ngModel>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="6" required data-error="Write your message" placeholder="{{ 'demo.appmerchant54' | translate }}"  ngModel></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12">
+                                <button  type="submit" class="btn btn-primary"> {{ 'demo.appmerchant55' | translate }} </button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-lg-3 col-sm-6 foota">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo-white.png" alt="logo" style="width:200px;">
+                    </div>
+
+                    <div class="footer-link mb-3">
+                        <a  target="_blank" href="https://play.google.com/store/apps/details?id=com.cooptavanza5477.appopay">
+                            <img src="assets/img/google-play.png" alt="google image" style="height:35px;width:330px;">
+                        </a>
+
+                        <a  target="_blank" href="https://apps.apple.com/in/app/appopay/id1587340828">
+                            <img src="assets/img/app-store.png" alt="google image" style="height:35px;width:330px;">
+                        </a>
+                    </div>
+                    <h6 style="color:#fff;font-weight:700;font-size:20px;">{{ 'demo.applanding229' | translate }}</h6>
+
+                    <div class="footer-link mb-2">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/DSS-Logo.png" alt="google image" style="width:330px;">
+                        </a>
+
+
+                    </div>
+                    <div class="footer-link mb-2">
+                        <a routerLink="/app-landing">
+                            <img src="assets/img/trust-seal-protected.png" alt="google image" style="width:330px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 foot">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding234' | translate }}</h3>
+
+                    <ul>
+                        <li><a  routerLink="/business"><i class="flaticon-right"></i> {{ 'demo.applanding230' | translate }}</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i> {{ 'demo.applanding231' | translate }}</a></li>
+                        <li><a href="#"><i class="flaticon-right"></i> {{ 'demo.applanding232' | translate }}</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 footb">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding233' | translate }}</h3>
+
+
+
+
+
+
+                    <ul>
+                        <li><a routerLink=""><i class="flaticon-right"></i> {{ 'demo.applanding235' | translate }}</a></li>
+                        <li><a routerLink="/privacypolicy"><i class="flaticon-right"></i> {{ 'demo.applanding236' | translate }}</a></li>
+                        <li><a routerLink="/termsofuse"><i class="flaticon-right"></i> {{ 'demo.applanding237' | translate }}</a></li>
+                         <li><a routerLink="/contact-us"><i class="flaticon-right"></i> {{ 'demo.applanding238' | translate }}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 footc">
+                <div class="footer-widget">
+                    <h3>{{ 'demo.applanding239' | translate }}</h3>
+
+
+
+                    <ul>
+                        <li><a href="Appopay"><i class="flaticon-right"></i>Location: Appopay </a></li>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Via Transistmica Plaza Nani alado
+                            </a></li>
+                        <li><a href="tel:+02452142314" style="margin-left: 13px;"> Pharmacia metro Plus </a></li>
+
+
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Panama, Republica de Panama </a>
+                        </li>
+
+
+                        <li><a href="mailto:hello@euzan.com"><i class="flaticon-right"></i>Email:support@appopay.com</a>
+                        </li>
+                        <li><a href="tel:+02452142314"><i class="flaticon-right"></i>Phone:+5073731199</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 footex">
+                <div class="footer-widget">
+
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <img src="assets/img/bank_logo2.png" alt="logo" style="width:200px;">
+                        </div>
+                        <h6 style="color:#fff;font-weight:600;">{{ 'demo.applanding240' | translate }}</h6>
+                        <div class="footer-logo">
+                            <img src="assets/img/bottomlogo.png" alt="logo" style="width:200px;">
+                        </div>
+
+                        <h6 style="color:#fff;font-weight:600;">{{ 'demo.applanding241' | translate }}</h6>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-4 lh-1">
+                    <img src="assets/img/bottomnew.png" alt="union card">
+                    <img src="assets/img/visa.png" alt="visa card">
+                    <img src="assets/img/american-express.png" alt="american-express">
+                    <img src="assets/img/discover.png" alt="discover">
+                    <img src="assets/img/master-card.png" alt="master card">
+                </div>
+
+                <div class="col-lg-6 col-md-8 lh-1">
+                    <p>Copyright @2019 appopay.com. All rights reserved <a href="https://appopay.com/appopaynew"
+                            target="_blank"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="top-btn">
+    <i class="flaticon-rocket"></i>
+</div>

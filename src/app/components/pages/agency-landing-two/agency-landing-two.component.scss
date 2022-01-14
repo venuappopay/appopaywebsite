@@ -1,0 +1,15 @@
+.ng-image-slider .ng-image-slider-container .main .main-inner .img-div .caption {
+    background-color:#069ee8!important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0)!important;
+}ng-image-slider .custom-image-main img {
+    border-radius: 0 !important;
+}
+
+ng-image-slider .img-div.selected-image {
+    border: 3px solid #069ee8;
+    box-sizing: border-box;
+} 
+
+ng-image-slider .img-div {
+  cursor: pointer;
+}

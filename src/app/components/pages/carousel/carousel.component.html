@@ -1,0 +1,64 @@
+<div class="d-none d-sm-block">
+  <div class="row w-100 slider-bg" style="background-image: url(assets/img/carousel/latest/landingpage-banner.jpg);">
+      <div class="col-sm-4" style="margin-top:320px;">
+          <div class="mt-md-5">
+            <a  (click)="scrollTo(slide_id)" class="btn mt-md-5" style="background-color: #079ee8;color:#fff;">Learn more</a>
+          </div>
+      </div>
+      <div class="col-sm-4">
+          <div class="ml-5 slider">
+              <div class="w-100">
+                  <ngb-carousel *ngIf="slides">
+                    <ng-template ngbSlide *ngFor="let slide_item of slides; let i = index " (slid)="manageClickHandler($event, i)" >
+                      <div class="wrapper">
+                        <img [src]="slide_item.image" alt="Random first slide">
+                      </div>
+                    </ng-template>
+                  </ngb-carousel>
+                  </div>
+          </div>
+      </div>
+      <div class="col-sm-4 silder-right">
+          <!-- <div class="row w-100" >
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <h5 *ngIf="top_text" class="font-weight-bold" [innerHTML]="top_text"></h5>
+            </div>
+        </div> -->
+          <div class="row w-100 slider-desc">
+              <div class="col-md-3"></div>
+              <div class="col-md-5">
+                <img *ngIf="img_top" [src]="img_top" alt="top_image" class="img-responsive animated mt-3" [class]="img_top_animation"/>
+              </div>
+          </div>
+        <div class="row w-100" style="margin-top: 70px;">
+            
+          <div class="col-md-3"></div>
+              <div class="col-md-7">
+              <!-- <h6 style="font-size: 16px;" *ngIf="bottom_text" class="font-weight-bold text-nowrap animated" [innerHTML]="bottom_text" [class]="bottom_text_animation"></h6> -->
+              <img  style="font-size: 28px;" *ngIf="img_bottom" [src]="img_bottom" alt="bottom_image" class="img-responsive animated" [class]="img_bottom_animation"/>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="d-block d-sm-none">
+  <div class="row w-100 slider">
+        <ngb-carousel *ngIf="slides">
+          <ng-template ngbSlide *ngFor="let slide_item of slides; let i = index " (slid)="manageClickHandlerMobile($event, i)">
+            <div class="wrapper">
+              <img [src]="slide_item.image" alt="Random first slide">
+            </div>
+          </ng-template>
+        </ngb-carousel>
+  </div>
+</div>
