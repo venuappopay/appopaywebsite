@@ -3078,20 +3078,7 @@ button {
   overflow: hidden;
 }
 
-button span:nth-child(1) {
-  position: absolute;
-  height: 0.2rem;
-  width: 100%;
-  background-image: linear-gradient(
-    to right,
-    rgb(0, 153, 255) 30%,
-    rgb(203, 6, 230) 40%,
-    rgb(57, 176, 255)
-  );
-  top: 0;
-  left: 0;
-  animation: line1 20s linear infinite;
-}
+
 
 @keyframes line1 {
   0% {
@@ -3102,20 +3089,7 @@ button span:nth-child(1) {
   }
 }
 
-button span:nth-child(2) {
-  position: absolute;
-  height: 100%;
-  width: 0.2rem;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(0, 153, 255) 30%,
-    rgb(203, 6, 230) 40%,
-    rgb(57, 176, 255)
-  );
-  top: 0;
-  right: 0;
-  animation: line2 20s linear 1.5s infinite;
-}
+
 
 @keyframes line2 {
   0% {
@@ -3126,20 +3100,7 @@ button span:nth-child(2) {
   }
 }
 
-button span:nth-child(3) {
-  position: absolute;
-  height: 0.2rem;
-  width: 100%;
-  background-image: linear-gradient(
-    to right,
-    rgb(0, 153, 255) 30%,
-    rgb(203, 6, 230) 40%,
-    rgb(57, 176, 255)
-  );
-  bottom: 0;
-  left: 0;
-  animation: line3 20s linear infinite;
-}
+
 
 @keyframes line3 {
   0% {
@@ -3150,20 +3111,7 @@ button span:nth-child(3) {
   }
 }
 
-button span:nth-child(4) {
-  position: absolute;
-  height: 100%;
-  width: 0.2rem;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(0, 153, 255) 30%,
-    rgb(203, 6, 230) 40%,
-    rgb(57, 176, 255)
-  );
-  top: 0;
-  left: 0;
-  animation: line4 20s linear 1.5s infinite;
-}
+
 
 @keyframes line4 {
   0% {
@@ -3430,3 +3378,21 @@ padding-left:30px;
 
 }
 
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+  .bounce {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    color: #333;
+}
+}
+
+@media screen 
+  and (min-device-width:  412px)
+  and (max-device-width: 418px){
+.why-chooses-img.wow.fadeInUp img {
+    height: 300px!important;
+}
+}

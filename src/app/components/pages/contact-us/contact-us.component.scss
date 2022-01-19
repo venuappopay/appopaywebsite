@@ -1460,6 +1460,9 @@ App Download Area CSS
 .container {
     max-width: 1217px!important;
 }
+.navbar .navbar-btn a:hover {
+    background-color: #ffffff00;
+    }
 
 @media (max-width:767px) {
 
@@ -1703,4 +1706,170 @@ Contact Area CSS
 .contact-info ul li:last-child {
   margin-bottom: 0;
 }
+.col-lg-3.col-sm-6.footex {
+    flex: 0 0 16%;
+}
 
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+.navbar .navbar-btn a {
+    font-size: 9px;
+    padding: 5px 13px;
+    margin-left: 6px;
+}
+.col-lg-12.col-md-12.section-title {
+    margin-top: 5%;
+}
+.contact-form {
+    margin-top: 5%;
+}
+.foot {
+    max-width: 17% !important;
+    padding-left: 12px !important;
+}
+.foota h6 {
+    font-size: 13px !important;
+}
+.footer-widget ul li {
+    font-size: 14px;
+}
+.footb {
+    max-width: 22% !important;
+    padding-left: 2px !important;
+}
+.footex {
+    max-width: 18% !important;
+    padding-left: 33px !important;
+}
+.footex h6 {
+    font-size: 14px;
+}
+.foota{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.footex{
+    max-width: 14% !important;
+    padding-left: 12px !important;
+}
+
+}
+
+@media screen 
+  and (min-device-width:  412px)
+  and (max-device-width: 418px){
+.col-lg-12.col-md-12.section-title {
+    margin-top: 10%;
+}
+nav.navbar.navbar-expand-md.navbar-light.navbar-area.pt-100.pb-50 {
+    padding: 30px 15px 0px 15px !important;
+}
+.contact-form {
+    margin-top: 10%;
+}
+.col-lg-3.col-sm-6.footex {
+    flex: 0 0 100%;
+}
+.col-lg-6.col-md-4.lh-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-lg-6.col-md-8.lh-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.footer-link.mb-3 img {
+    height: 100% !important;
+}
+}
+
+@media only screen
+  and (max-device-width: 375px){
+  .col-lg-12.col-md-12.section-title {
+    margin-top: 10%;
+}
+nav.navbar.navbar-expand-md.navbar-light.navbar-area.pt-100.pb-50 {
+    padding: 30px 15px 0px 15px !important;
+}
+.contact-form {
+    margin-top: 10%;
+}
+.col-lg-3.col-sm-6.footex {
+    flex: 0 0 100%;
+}
+.col-lg-6.col-md-4.lh-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-lg-6.col-md-8.lh-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.footer-area .copyright-area img {
+    margin-right: 0px;
+}
+.footer-link.mb-3 img {
+    height: 100% !important;
+}
+}
+
+@media screen 
+  and (min-device-width:  390px)
+  and (max-device-width: 393px){
+  .col-lg-12.col-md-12.section-title {
+    margin-top: 10%;
+}
+nav.navbar.navbar-expand-md.navbar-light.navbar-area.pt-100.pb-50 {
+    padding: 30px 15px 0px 15px !important;
+}
+.contact-form {
+    margin-top: 10%;
+}
+.col-lg-3.col-sm-6.footex {
+    flex: 0 0 100%;
+}
+.col-lg-6.col-md-4.lh-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-lg-6.col-md-8.lh-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.footer-area .copyright-area img {
+    margin-right: 0px;
+}
+.footer-link.mb-3 img {
+    height: 100% !important;
+}
+}
+
+ @media only screen and (max-device-width: 360px) {
+ .col-lg-12.col-md-12.section-title {
+    margin-top: 10%;
+}
+nav.navbar.navbar-expand-md.navbar-light.navbar-area.pt-100.pb-50 {
+    padding: 30px 15px 0px 15px !important;
+}
+.contact-form {
+    margin-top: 10%;
+}
+.col-lg-3.col-sm-6.footex {
+    flex: 0 0 100%;
+}
+.col-lg-6.col-md-4.lh-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-lg-6.col-md-8.lh-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.footer-area .copyright-area img {
+    margin-right: 0px;
+}
+.footer-link.mb-3 img {
+    height: 100% !important;
+}
+}
