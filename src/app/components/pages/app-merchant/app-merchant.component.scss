@@ -1732,10 +1732,10 @@ Contact Area CSS
     left: 0px !important;
 }
 .navbar .navbar-btn a {
-    font-size: 7px;
-    padding: 8px 20px;
+    font-size: 10px;
+    padding: 8px 10px;
     color: #ffffff !important;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .row.align-items-center.ng-tns-c119-0 {
     margin-left: auto;
@@ -1759,7 +1759,7 @@ section.how-use.pt-100.ng-tns-c119-0 {
 }
 h6.ng-tns-c119-0 {
     float: none !important;
-    text-align: left !important;
+    text-align: center !important;
     width: 100%;
 }
 .contact-form.ng-tns-c119-0 {
@@ -1779,6 +1779,9 @@ h6.ng-tns-c119-0 {
 .footer-logo.ng-tns-c119-0 h6 {
     text-align: left !important;
 } 
+.navbar {
+    padding: 30px 0px 20px !important;
+  }
   }
 
 @media screen 
@@ -1833,6 +1836,32 @@ img.ng-tns-c119-0 {
 .footer-logo.ng-tns-c119-0 h6 {
     text-align: left !important;
 }
+.sec2 {
+    padding-top: 0px !important;
+}
+.sec3 {
+    padding-top: 6px !important;
+}
+.sec4 {
+    padding-top: 15px !important;
+}
+.sec5 {
+    padding-top: 10px !important;
+}
+.sec6 {
+    padding-top: 0px !important;
+}
+.app-image .circle-img img{
+-webkit-animation-name: rotateMe !important;
+animation-name: rotateMe !important;
+-webkit-animation-duration: 35s !important;
+animation-duration: 35s !important;
+-webkit-animation-iteration-count: infinite !important;
+animation-iteration-count: infinite !important;
+animation-timing-function: linear !important;
+-webkit-animation-timing-function: linear !important;
+}
+
   }
 
    @media only screen
@@ -1885,6 +1914,31 @@ img.ng-tns-c119-0 {
 }
 .footer-logo.ng-tns-c119-0 h6 {
     text-align: left !important;
+}
+.sec2 {
+    padding-top: 0px !important;
+}
+.sec3 {
+    padding-top: 6px !important;
+}
+.sec4 {
+    padding-top: 15px !important;
+}
+.sec5 {
+    padding-top: 10px !important;
+}
+.sec6 {
+    padding-top: 0px !important;
+}
+.app-image .circle-img img{
+-webkit-animation-name: rotateMe !important;
+animation-name: rotateMe !important;
+-webkit-animation-duration: 35s !important;
+animation-duration: 35s !important;
+-webkit-animation-iteration-count: infinite !important;
+animation-iteration-count: infinite !important;
+animation-timing-function: linear !important;
+-webkit-animation-timing-function: linear !important;
 }
 
   }
@@ -1940,7 +1994,31 @@ img.ng-tns-c119-0 {
 .footer-logo.ng-tns-c119-0 h6 {
     text-align: left !important;
 }
-
+.sec2 {
+    padding-top: 0px !important;
+}
+.sec3 {
+    padding-top: 6px !important;
+}
+.sec4 {
+    padding-top: 15px !important;
+}
+.sec5 {
+    padding-top: 10px !important;
+}
+.sec6 {
+    padding-top: 0px !important;
+}
+.app-image .circle-img img{
+-webkit-animation-name: rotateMe !important;
+animation-name: rotateMe !important;
+-webkit-animation-duration: 35s !important;
+animation-duration: 35s !important;
+-webkit-animation-iteration-count: infinite !important;
+animation-iteration-count: infinite !important;
+animation-timing-function: linear !important;
+-webkit-animation-timing-function: linear !important;
+}
   }
 
    @media only screen and (max-device-width: 360px) {
@@ -1992,5 +2070,30 @@ img.ng-tns-c119-0 {
 }
 .footer-logo.ng-tns-c119-0 h6 {
     text-align: left !important;
+}
+.sec2 {
+    padding-top: 0px !important;
+}
+.sec3 {
+    padding-top: 6px !important;
+}
+.sec4 {
+    padding-top: 15px !important;
+}
+.sec5 {
+    padding-top: 10px !important;
+}
+.sec6 {
+    padding-top: 0px !important;
+}
+.app-image .circle-img img{
+-webkit-animation-name: rotateMe !important;
+animation-name: rotateMe !important;
+-webkit-animation-duration: 35s !important;
+animation-duration: 35s !important;
+-webkit-animation-iteration-count: infinite !important;
+animation-iteration-count: infinite !important;
+animation-timing-function: linear !important;
+-webkit-animation-timing-function: linear !important;
 }
 }

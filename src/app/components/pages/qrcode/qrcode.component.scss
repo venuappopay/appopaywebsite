@@ -3463,7 +3463,7 @@ p {
     padding-top: 5%;
 }
 .ap {
-    padding-top: 5%;
+    padding-top: 0%;
     margin-left: 0px !important;
 }
 .how-use p {
@@ -3514,6 +3514,12 @@ section#qrcode5 {
 section#qrcode3 {
     padding-top: 0px !important;
 }
+section#qrcode2 {
+    padding-top: 0px !important;
+}
+.col-lg-7.qr.qr_taxi {
+    padding-top: 5%;
+}
 }
 
 @media only screen
@@ -3552,7 +3558,7 @@ section#qrcode3 {
     padding-top: 5%;
 }
 .ap {
-    padding-top: 5%;
+    padding-top: 0%;
     margin-left: 0px !important;
 }
 
@@ -3602,6 +3608,12 @@ section#qrcode5 {
 }
 section#qrcode3 {
     padding-top: 0px !important;
+}
+section#qrcode2 {
+    padding-top: 0px !important;
+}
+.col-lg-7.qr.qr_taxi {
+    padding-top: 5%;
 }
 }
 
@@ -3643,7 +3655,7 @@ section#qrcode3 {
     padding-top: 5%;
 }
 .ap {
-    padding-top: 5%;
+    padding-top: 0%;
     margin-left: 0px !important;
 }
 
@@ -3694,6 +3706,12 @@ section#qrcode5 {
 section#qrcode3 {
     padding-top: 0px !important;
 }
+section#qrcode2 {
+    padding-top: 0px !important;
+}
+.col-lg-7.qr.qr_taxi {
+    padding-top: 5%;
+}
 }
 
  @media only screen and (max-device-width: 360px) {
@@ -3731,7 +3749,7 @@ section#qrcode3 {
     padding-top: 5%;
 }
 .ap {
-    padding-top: 5%;
+    padding-top: 0%;
     margin-left: 0px !important;
 }
 
@@ -3789,5 +3807,10 @@ section#qrcode5 {
 section#qrcode3 {
     padding-top: 0px !important;
 }
-
+section#qrcode2 {
+    padding-top: 0px !important;
+}
+.col-lg-7.qr.qr_taxi {
+    padding-top: 5%;
+}
 }

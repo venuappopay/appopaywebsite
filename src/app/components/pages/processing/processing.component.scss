@@ -49,6 +49,12 @@
     .navbar .navbar-btn a:hover {
     background-color: #ffffff00;
     }
+    .col-lg-3.col-sm-6.footc {
+    flex: 0 0 23%;
+}
+.sec2_img {
+    display: none;
+}
 
 @media (max-width:767px) {
 
@@ -155,6 +161,9 @@ section#apps {
     flex: 0 0 20%;
     max-width: 20%;
 }
+.sec2_img {
+    display: none;
+}
 
   }
   
@@ -194,6 +203,12 @@ section#apps {
 }
 .col-lg-3.col-sm-6.footex {
     flex: 0 0 100%;
+}
+.col-lg-6.ap_sec.sec2_desktop {
+    display: none;
+}
+.sec2_img {
+    display: block;
 }
 
 }
@@ -237,6 +252,13 @@ section#apps {
 .media-body.ml-4 h3 {
     font-size: 30px !important;
 }
+.col-lg-6.ap_sec.sec2_desktop {
+    display: none;
+}
+.sec2_img {
+    display: block;
+}
+
 }
 
 @media screen 
@@ -276,6 +298,13 @@ section#apps {
 .col-lg-3.col-sm-6.footex {
     flex: 0 0 100%;
 }
+.col-lg-6.ap_sec.sec2_desktop {
+    display: none;
+}
+.sec2_img {
+    display: block;
+}
+
 }
 
 @media only screen and (max-device-width: 360px) {
@@ -313,4 +342,11 @@ section#apps {
 .col-lg-3.col-sm-6.footex {
     flex: 0 0 100%;
 }
+.col-lg-6.ap_sec.sec2_desktop {
+    display: none;
+}
+.sec2_img {
+    display: block;
+}
+
 }
