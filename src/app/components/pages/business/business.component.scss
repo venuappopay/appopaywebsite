@@ -3452,6 +3452,12 @@ padding-left:30px!important;
 nav.navbar.navbar-expand-md.navbar-light.navbar-area {
     padding: 9px 10px 1px 10px !important;
 }
+img.banner_img2 {
+    margin-top: 0px !important;
+}
+.img_bn{
+  padding-top: 30px !important;
+}
   }
 
   @media only screen
@@ -3481,7 +3487,12 @@ nav.navbar.navbar-expand-md.navbar-light.navbar-area {
     max-width: 50% !important;
     padding-left: 35px !important;
 }
-
+img.banner_img2 {
+    margin-top: 0px !important;
+}
+.img_bn{
+  padding-top: 30px !important;
+}
 }
 
 @media screen 
@@ -3510,12 +3521,23 @@ nav.navbar.navbar-expand-md.navbar-light.navbar-area {
     max-width: 50% !important;
     padding-left: 35px !important;
 }
-
+img.banner_img2 {
+    margin-top: 0px !important;
+}
+.img_bn{
+  padding-top: 30px !important;
+}
 }
 
  @media only screen and (max-device-width: 360px) {
 .footer-area .copyright-area img {
     margin-right: 0px !important;
+}
+img.banner_img2 {
+    margin-top: 0px !important;
+}
+.img_bn{
+  padding-top: 30px !important;
 }
 
  }
