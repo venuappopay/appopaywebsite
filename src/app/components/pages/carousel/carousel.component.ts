@@ -26,7 +26,7 @@ export class CarouselComponent implements OnInit {
       img_bottom: 'assets/img/carousel/banner2/mobile-2-info.png',
       top_text: "Send money directly to <br> Family and Friends.",
       bottom_text: "",
-      img_top_animation: 'fadeInDown',
+      img_top_animation: 'flip delay-2s',
       img_bottom_animation: 'rotateInUpRight',
       top_text_animation: '',
       bottom_text_animation: '',
@@ -38,7 +38,7 @@ export class CarouselComponent implements OnInit {
       img_bottom: 'assets/img/carousel/banner3/mobile-3-info.png',
       top_text: "",
       bottom_text: "Get Virtual UnionPay <br> Prepaid Card When you install the",
-      img_top_animation: 'rotateIn',
+      img_top_animation: 'flip delay-2s',
       img_bottom_animation: 'rotateInUpLeft',
       top_text_animation: '',
       bottom_text_animation: 'flip',
@@ -50,7 +50,7 @@ export class CarouselComponent implements OnInit {
       img_bottom: 'assets/img/carousel/banner4/mobile-4-info.png',
       top_text: "Send money directly to <br> Family and Friends.",
       bottom_text: "No bank account, No problem.<br>Pickup or Send at any APPO pay<br>agent location.",
-      img_top_animation: 'flip',
+      img_top_animation: 'flip delay-2s',
       img_bottom_animation: 'fadeInDown',
       top_text_animation: '',
       bottom_text_animation: 'rotateInUpRight',
@@ -63,7 +63,7 @@ export class CarouselComponent implements OnInit {
       top_text: "",
       bottom_text: "",
       img_top_animation: 'rotateInUpLeft',
-      img_bottom_animation: 'flip',
+      img_bottom_animation: 'flip delay-2s',
       top_text_animation: '',
       bottom_text_animation: '',
       id: "slide5"
@@ -74,7 +74,7 @@ export class CarouselComponent implements OnInit {
       img_bottom: 'assets/img/carousel/banner6/mobile-6-info.png',
       top_text: "",
       bottom_text: "",
-      img_top_animation: 'rotateInUpRight',
+      img_top_animation: 'flip delay-2s',
       img_bottom_animation: 'fadeInDown',
       top_text_animation: '',
       bottom_text_animation: '',
@@ -86,7 +86,7 @@ export class CarouselComponent implements OnInit {
       img_bottom: 'assets/img/carousel/banner7/mobile-7-info.png',
       top_text: "",
       bottom_text: "",
-      img_top_animation: 'fadeInTopLeft',
+      img_top_animation: 'flip delay-2s',
       img_bottom_animation: 'rotateInUpRight',
       top_text_animation: '',
       bottom_text_animation: '',
@@ -124,9 +124,9 @@ export class CarouselComponent implements OnInit {
   }
 
   manageClickHandler(e, i) {
-    if (e.isShown && window.innerWidth >= 576) {
+   // if (e.isShown && window.innerWidth >= 300) {
       this.currentSlide = i;
-    }
+    //}
     if (this.slides.length == this.currentSlide) {
       this.currentSlide = 0;
     }
