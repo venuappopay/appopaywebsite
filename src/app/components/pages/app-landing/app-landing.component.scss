@@ -3377,6 +3377,13 @@ padding-left:30px;
   position: relative;
 
 }
+.bounce {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    color: #333;
+    min-height: 50px !important;
+}
 
 @media screen 
   and (min-device-width: 768px) 
@@ -3392,7 +3399,134 @@ padding-left:30px;
 @media screen 
   and (min-device-width:  412px)
   and (max-device-width: 418px){
+
+.why-chooses-img::before {
+    background: #fff0 !important;
+
+}
+.why-choose-text {
+    text-align: center;
+}
 .why-chooses-img.wow.fadeInUp img {
-    height: 300px!important;
+    height: 200px !important;
+    padding-top: 0%;
 }
+.carousel-cell.carsec {
+    width: 200px !important;
 }
+.carousel-arrow-next {
+    right: -6px !important;
+}
+.media  p {
+    text-align: left;
+}
+.carousel-cells .car_sec{
+  width: 200px !important;
+} 
+}
+@media only screen
+  and (max-device-width: 375px){
+  .why-chooses-img::before {
+    background: #fff0 !important;
+
+}
+.why-choose-text.wow{
+    text-align: center;
+}
+.why-chooses-img.wow.fadeInUp img {
+    height: 200px !important;
+    padding-top: 0%;
+}
+.carousel-cell.carsec {
+    width: 140px !important;
+}
+.carousel-arrow-next {
+    right: -6px !important;
+}
+.media  p {
+    text-align: left;
+}
+.carousel-cells .car_sec{
+  width: 200px !important;
+}  
+}
+@media screen 
+  and (min-device-width:  390px)
+  and (max-device-width: 393px){
+.why-chooses-img::before {
+    background: #fff0 !important;
+
+}
+.why-choose-text.wow {
+    text-align: center;
+}
+.why-chooses-img.wow.fadeInUp img {
+    height: 200px !important;
+    padding-top: 0%;
+}
+.carousel-cell.carsec {
+    width: 140px !important;
+}
+.carousel-arrow-next {
+    right: -6px !important;
+}
+.media  p {
+    text-align: left;
+}
+.carousel-cells .car_sec{
+  width: 200px !important;
+}  
+}
+@media only screen and (max-device-width: 360px) {
+.why-chooses-img::before {
+    background: #fff0 !important;
+
+}
+.why-choose-text.wow{
+    text-align: center;
+}
+.why-chooses-img.wow.fadeInUp img {
+    height: 200px !important;
+    padding-top: 0%;
+    top: 43%;
+}
+.carousel-cell.carsec {
+    width: 140px !important;
+}
+.carousel-arrow-next {
+    right: -6px !important;
+}
+.media  p {
+    text-align: left;
+}
+.carousel-cells .car_sec{
+  width: 200px !important;
+}  
+}
+@media only screen
+  and (max-device-width: 346px){
+.why-choose .why-choose-text .why-choose-btn a {
+    padding: 2px 7px 0px !important;
+    margin-right: 5px !important;
+}
+.why-choosess .why-choosess-text .why-choosess-btn h5 {
+    font-size: 10px !important;
+}
+.carousel-cell.carsec {
+    width: 120px !important;
+}
+.carousel-arrow-next {
+    right: -10px !important;
+}
+.carousel-arrow.carousel-arrow-next {
+    background-color: #ff000000 !important;
+}
+.carousel-arrow.carousel-arrow-prev{
+    background-color: #ff000000 !important;
+}
+section#screenshots .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+  }

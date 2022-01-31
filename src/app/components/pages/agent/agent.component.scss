@@ -3467,7 +3467,12 @@ section#apps {
 .map_sec {
     padding-top: 0px !important;
 }
-
+.col-lg-12.col-md-6.col-sm-6.ap {
+    text-align: center;
+}
+.col-lg-12 {
+    text-align: center;
+}
   }
 
   @media only screen
@@ -3513,7 +3518,12 @@ section#apps {
 .map_sec {
     padding-top: 0px !important;
 }
-
+.col-lg-12.col-md-6.col-sm-6.ap {
+    text-align: center;
+}
+.col-lg-12 {
+    text-align: center;
+}
 }
 
 @media screen 
@@ -3560,7 +3570,12 @@ section#apps {
 .map_sec {
     padding-top: 0px !important;
 }
-
+.col-lg-12.col-md-6.col-sm-6.ap {
+    text-align: center;
+}
+.col-lg-12 {
+    text-align: center;
+}
 }
 
 @media only screen and (max-device-width: 360px) {
@@ -3605,5 +3620,10 @@ section#apps {
 .map_sec {
     padding-top: 0px !important;
 }
-
+.col-lg-12.col-md-6.col-sm-6.ap {
+    text-align: center;
+}
+.col-lg-12 {
+    text-align: center;
+}
 }

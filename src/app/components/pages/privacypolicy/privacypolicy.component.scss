@@ -3404,6 +3404,9 @@ section#apps {
 .footer-link.mb-3 img {
     height: 100% !important;
 }
+.media-body {
+    text-align: center;
+}
 }
 
 @media only screen
@@ -3454,6 +3457,9 @@ section#apps {
 }
 .footer-area .copyright-area img {
     margin-right: 0px;
+}
+.media-body {
+    text-align: center;
 }
   }
 
@@ -3508,6 +3514,9 @@ section#apps {
 .footer-area .copyright-area img {
     margin-right: 0px;
 }
+.media-body {
+    text-align: center;
+}
 }
 
 @media only screen and (max-device-width: 360px) {
@@ -3557,5 +3566,8 @@ section#apps {
 }
 .footer-area .copyright-area img {
     margin-right: 0px;
+}
+.media-body {
+    text-align: center;
 }
 }

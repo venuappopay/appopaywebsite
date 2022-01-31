@@ -15,15 +15,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 .animated {
-  -webkit-animation-duration: 1s !important;
-  animation-duration: 1s !important;
-  -webkit-animation-fill-mode: both !important;
-  animation-fill-mode: both !important;
+  -webkit-animation-duration: 1s ;
+  animation-duration: 1s ;
+  -webkit-animation-fill-mode: both ;
+  animation-fill-mode: both ;
 }
 
 .animated.hinge {
-  -webkit-animation-duration: 2s !important;
-  animation-duration: 2s !important;
+  -webkit-animation-duration: 2s ;
+  animation-duration: 2s ;
 }
 
 @-webkit-keyframes bounce {
@@ -64,8 +64,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounce {
-  -webkit-animation-name: bounce !important;
-  animation-name: bounce !important;
+  -webkit-animation-name: bounce ;
+  animation-name: bounce ;
 }
 
 @-webkit-keyframes flash {
@@ -133,8 +133,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .pulse {
-  -webkit-animation-name: pulse !important;
-  animation-name: pulse !important;
+  -webkit-animation-name: pulse ;
+  animation-name: pulse ;
 }
 
 @-webkit-keyframes shake {
@@ -175,8 +175,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .shake {
-  -webkit-animation-name: shake !important;
-  animation-name: shake !important;
+  -webkit-animation-name: shake ;
+  animation-name: shake ;
 }
 
 @-webkit-keyframes swing {
@@ -239,7 +239,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .swing {
-  -webkit-transform-origin: top center !important;
+  -webkit-transform-origin: top center ;
   -ms-transform-origin: top center !important;
   transform-origin: top center !important;
   -webkit-animation-name: swing !important;
@@ -451,8 +451,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounceIn {
-  -webkit-animation-name: bounceIn !important;
-  animation-name: bounceIn !important;
+  -webkit-animation-name: bounceIn ;
+  animation-name: bounceIn ;
 }
 
 @-webkit-keyframes bounceInDown {
@@ -508,8 +508,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounceInDown {
-  -webkit-animation-name: bounceInDown !important;
-  animation-name: bounceInDown !important;
+  -webkit-animation-name: bounceInDown ;
+  animation-name: bounceInDown ;
 }
 
 @-webkit-keyframes bounceInLeft {
@@ -565,8 +565,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounceInLeft {
-  -webkit-animation-name: bounceInLeft !important;
-  animation-name: bounceInLeft !important;
+  -webkit-animation-name: bounceInLeft ;
+  animation-name: bounceInLeft ;
 }
 
 @-webkit-keyframes bounceInRight {
@@ -622,8 +622,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounceInRight {
-  -webkit-animation-name: bounceInRight !important;
-  animation-name: bounceInRight !important;
+  -webkit-animation-name: bounceInRight ;
+  animation-name: bounceInRight ;
 }
 
 @-webkit-keyframes bounceInUp {
@@ -679,8 +679,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounceInUp {
-  -webkit-animation-name: bounceInUp !important;
-  animation-name: bounceInUp !important;
+  -webkit-animation-name: bounceInUp ;
+  animation-name: bounceInUp ;
 }
 
 @-webkit-keyframes bounceOut {
@@ -736,8 +736,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounceOut {
-  -webkit-animation-name: bounceOut !important;
-  animation-name: bounceOut !important;
+  -webkit-animation-name: bounceOut ;
+  animation-name: bounceOut ;
 }
 
 @-webkit-keyframes bounceOutDown {
@@ -782,8 +782,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounceOutDown {
-  -webkit-animation-name: bounceOutDown !important;
-  animation-name: bounceOutDown !important;
+  -webkit-animation-name: bounceOutDown ;
+  animation-name: bounceOutDown ;
 }
 
 @-webkit-keyframes bounceOutLeft {
@@ -828,8 +828,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounceOutLeft {
-  -webkit-animation-name: bounceOutLeft !important;
-  animation-name: bounceOutLeft !important;
+  -webkit-animation-name: bounceOutLeft ;
+  animation-name: bounceOutLeft ;
 }
 
 @-webkit-keyframes bounceOutRight {
@@ -874,8 +874,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounceOutRight {
-  -webkit-animation-name: bounceOutRight !important;
-  animation-name: bounceOutRight !important;
+  -webkit-animation-name: bounceOutRight ;
+  animation-name: bounceOutRight ;
 }
 
 @-webkit-keyframes bounceOutUp {
@@ -920,8 +920,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .bounceOutUp {
-  -webkit-animation-name: bounceOutUp !important;
-  animation-name: bounceOutUp !important;
+  -webkit-animation-name: bounceOutUp ;
+  animation-name: bounceOutUp ;
 }
 
 @-webkit-keyframes fadeIn {
@@ -2732,14 +2732,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   100% {
     opacity: 0;
-    -webkit-transform: translateX(100%) rotate(120deg) !important;
-    -ms-transform: translateX(100%) rotate(120deg) !important;
-    transform: translateX(100%) rotate(120deg) !important;
+    -webkit-transform: translateX(100%) rotate(120deg) ;
+    -ms-transform: translateX(100%) rotate(120deg) ;
+    transform: translateX(100%) rotate(120deg) ;
   }
 }
 
 .rollOut {
-  -webkit-animation-name: rollOut !important;
-  animation-name: rollOut !important;
+  -webkit-animation-name: rollOut ;
+  animation-name: rollOut ;
 }
 

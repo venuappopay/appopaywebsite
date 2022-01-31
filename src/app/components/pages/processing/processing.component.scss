@@ -210,7 +210,12 @@ section#apps {
 .sec2_img {
     display: block;
 }
-
+.media-body.ml-4 {
+    text-align: center;
+}
+.media-body {
+    text-align: center;
+}
 }
 
 @media only screen
@@ -258,7 +263,12 @@ section#apps {
 .sec2_img {
     display: block;
 }
-
+.media-body.ml-4 {
+    text-align: center;
+}
+.media-body {
+    text-align: center;
+}
 }
 
 @media screen 
@@ -304,7 +314,12 @@ section#apps {
 .sec2_img {
     display: block;
 }
-
+.media-body.ml-4 {
+    text-align: center;
+}
+.media-body {
+    text-align: center;
+}
 }
 
 @media only screen and (max-device-width: 360px) {
@@ -348,5 +363,10 @@ section#apps {
 .sec2_img {
     display: block;
 }
-
+.media-body.ml-4 {
+    text-align: center;
+}
+.media-body {
+    text-align: center;
+}
 }
