@@ -3434,7 +3434,7 @@ padding-left:30px;
     text-align: center;
 }
 .why-chooses-img.wow.fadeInUp img {
-    height: 200px !important;
+    height: 180px !important;
     padding-top: 0%;
 }
 .carousel-cell.carsec {
@@ -3461,7 +3461,7 @@ padding-left:30px;
     text-align: center;
 }
 .why-chooses-img.wow.fadeInUp img {
-    height: 200px !important;
+    height: 180px !important;
     padding-top: 0%;
 }
 .carousel-cell.carsec {
@@ -3486,7 +3486,7 @@ padding-left:30px;
     text-align: center;
 }
 .why-chooses-img.wow.fadeInUp img {
-    height: 200px !important;
+    height: 180px !important;
     padding-top: 0%;
     top: 43%;
 }
@@ -3512,6 +3512,11 @@ padding-left:30px;
 .why-choosess .why-choosess-text .why-choosess-btn h5 {
     font-size: 10px !important;
 }
+.why-chooses-img.wow.fadeInUp img {
+    height: 180px !important;
+    padding-top: 0%;
+    top: 43%;
+}
 .carousel-cell.carsec {
     width: 120px !important;
 }
@@ -3527,6 +3532,21 @@ padding-left:30px;
 section#screenshots .container-fluid {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+  }
+
+  @media only screen and (max-device-width: 320px) {
+.why-chooses-img.wow.fadeInUp img {
+    height: 160px !important;
+    padding-top: 0%;
+    top: 43%;
+}
+.why-choosess .why-choosess-text .why-choosess-btn h5 {
+    font-size: 9px !important;
+}
+.why-choosess .why-choosess-text .why-choosess-btn a p {
+    font-size: 10px;
 }
 
   }
