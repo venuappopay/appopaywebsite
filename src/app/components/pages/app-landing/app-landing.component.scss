@@ -3486,7 +3486,7 @@ padding-left:30px;
     text-align: center;
 }
 .why-chooses-img.wow.fadeInUp img {
-    height: 180px !important;
+    height: 165px !important;
     padding-top: 0%;
     top: 43%;
 }
@@ -3538,7 +3538,22 @@ section#screenshots .container-fluid {
 
   @media only screen and (max-device-width: 320px) {
 .why-chooses-img.wow.fadeInUp img {
-    height: 160px !important;
+    height: 148px !important;
+    padding-top: 0%;
+    top: 43%;
+}
+.why-choosess .why-choosess-text .why-choosess-btn h5 {
+    font-size: 9px !important;
+}
+.why-choosess .why-choosess-text .why-choosess-btn a p {
+    font-size: 10px;
+}
+
+  }
+
+  @media only screen and (max-device-width: 280px) {
+.why-chooses-img.wow.fadeInUp img {
+    height: 130px !important;
     padding-top: 0%;
     top: 43%;
 }
